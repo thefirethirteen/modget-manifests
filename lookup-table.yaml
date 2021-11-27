@@ -1,5 +1,15 @@
 # yaml-language-server: $schema=./doc/validation-schemas/3.1/lookup-table.json
 
+- id: fabricskyboxes
+  names:
+    - fabric-skyboxes
+  packages:
+    - AMereBagatelle.fabricskyboxes
+  tags:
+    - cosmetic
+    - utility
+    - miscellaneous
+    - optifine-alternative
 - id: fdlink
   names:
     - fabric-discord-link
