@@ -1,0 +1,67 @@
+# yaml-language-server: $schema=../../../../doc/validation-schemas/3.1/manifest.json
+
+manifestSpecVersion: "3.1"
+publisher: AMereBagatelle
+id: fabricskyboxes
+modType: jar
+side: client
+name: Fabric Skyboxes
+description: Adds custom skybox support to MC
+license: MIT
+home: https://modrinth.com/mod/fabricskyboxes
+source: https://github.com/AMereBagatelle/fabricskyboxes
+issues: https://github.com/AMereBagatelle/fabricskyboxes/issues
+wiki: https://github.com/AMereBagatelle/fabricskyboxes/tree/1.17.x-dev/docs
+chat: https://discord.gg/quvzkaV
+thirdPartyIds:
+  modrinth: "YBz7DOs8"
+  curseforge: "408209"
+downloads:
+  - version: "0.5.3"
+    loaders:
+      - fabric
+    minecraftVersions:
+      - "1.17.1"
+      - "1.17"
+    md5: d04cd0d610c50e41b0cdd42c2c1e5fd7
+    depends:
+      - packageId: FabricMC.fabric
+        version: "*"
+    downloadPageUrls:
+      - name: Modrinth
+        url: https://modrinth.com/mod/fabricskyboxes/version/aY5ERIZf
+      - name: GitHub
+        url: https://github.com/AMereBagatelle/fabricskyboxes/releases/tag/0.5.3
+    fileUrls:
+      - name: Modrinth
+        url: https://cdn.modrinth.com/data/YBz7DOs8/versions/0.5.3/fabricskyboxes-1.17.1-0.5.3.jar
+      - name: GitHub
+        url: https://github.com/AMereBagatelle/fabricskyboxes/releases/download/0.5.3/fabricskyboxes-1.17.1-0.5.3.jar
+  - version: "0.5.0"
+    loaders:
+      - fabric
+    minecraftVersions:
+      - "1.16.5"
+      - "1.16.4"
+      - "1.16.3"
+      - "1.16.2"
+      - "1.16.1"
+      - "1.16"
+    md5: d466521df989e5b9f7289c0f732980e9
+    depends:
+      - packageId: FabricMC.fabric
+        version: "*"
+    downloadPageUrls:
+      - name: Modrinth
+        url: https://modrinth.com/mod/fabricskyboxes/version/VDzuPSIb
+      - name: GitHub
+        url: https://github.com/AMereBagatelle/fabricskyboxes/releases/tag/0.5.0
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/fabricskyboxes/files/3098191
+    fileUrls:
+      - name: Modrinth
+        url: https://cdn.modrinth.com/data/YBz7DOs8/versions/0.5.0/fabricskyboxes-1.16-1.16.3-0.5.0.jar
+      - name: GitHub
+        url: https://github.com/AMereBagatelle/fabricskyboxes/releases/download/0.5.0/fabricskyboxes-1.16-1.16.3-0.5.0.jar
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/fabricskyboxes/download/3098191/file

@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=../../../../doc/validation-schemas/3.1/manifest.json
 
 manifestSpecVersion: "3.1"
-publisher: arthurbambou
+publisher: CatCore
 id: fdlink
 modType: jar
 side: server

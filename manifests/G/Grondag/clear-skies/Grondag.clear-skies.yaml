@@ -1,0 +1,48 @@
+# yaml-language-server: $schema=../../../../doc/validation-schemas/3.1/manifest.json
+
+manifestSpecVersion: "3.1"
+publisher: Grondag
+id: clear-skies
+modType: jar
+side: client
+name: Clear Skies
+description: Makes horizon and fog colors match the sky
+license: Apache-2.0
+home: https://www.curseforge.com/minecraft/mc-mods/clear-skies
+source: https://github.com/grondag/clear-skies
+issues: https://github.com/grondag/clear-skies/issues
+chat: https://discord.gg/7NaqR2e
+thirdPartyIds:
+  modrinth: ~
+  curseforge: "332523"
+downloads:
+  - version: "1.5.70"
+    loaders:
+      - fabric
+    minecraftVersions:
+      - "1.17.1"
+      - "1.17"
+    md5: 3d7a6f7f9d42e7597a7a7fba52161d38
+    downloadPageUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/clear-skies/files/3399879
+    fileUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/clear-skies/download/3399879/file
+  - version: "1.5.57"
+    loaders:
+      - fabric
+    minecraftVersions:
+      - "1.16.5"
+      - "1.16.4"
+      - "1.16.3"
+      - "1.16.2"
+      - "1.16.1"
+      - "1.16"
+    md5: 2135fedb77bc0c8de377bd2738b52794
+    downloadPageUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/clear-skies/files/3319590
+    fileUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/clear-skies/download/3319590/file

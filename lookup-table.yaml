@@ -1,13 +1,25 @@
 # yaml-language-server: $schema=./doc/validation-schemas/3.1/lookup-table.json
 
-- id: fdlink
+- id: fabricskyboxes
   names:
-    - fabric-discord-link
-    - fdlink
+    - fabricskyboxes
+    - fabric-skyboxes
   packages:
-    - arthurbambou.fdlink
+    - AMereBagatelle.fabricskyboxes
   tags:
+    - cosmetic
     - utility
+    - miscellaneous
+    - optifine-alternative
+- id: architectury
+  names:
+    - architectury
+    - architectury-api
+  packages:
+    - architectury.architectury
+  tags:
+    - api
+    - library
 - id: recipecache
   names:
     - recipecache
@@ -69,6 +81,14 @@
   tags:
     - performance
     - utility
+- id: fdlink
+  names:
+    - fabric-discord-link
+    - fdlink
+  packages:
+    - CatCore.fdlink
+  tags:
+    - utility
 - id: optifabric
   names:
     - optifabric
@@ -93,6 +113,35 @@
     - adventure
     - utility
     - worldgen
+- id: varied-mobs
+  names:
+    - varied-mobs
+    - varied-mob-textures
+  packages:
+    - Digifox03.varied-mobs
+  tags:
+    - mobs
+    - optifine-alternative
+- id: soaring-clouds
+  names:
+    - soaring-clouds
+  packages:
+    - Draylar.soaring-clouds
+  tags:
+    - cosmetic
+    - miscellaneous
+    - optifine-alternative
+- id: chime
+  names:
+    - chime
+  packages:
+    - EmilyPloszaj.chime
+  tags:
+    - library
+    - api
+    - utility
+    - miscellaneous
+    - optifine-alternative
 - id: okzoomer
   names:
     - okzoomer
@@ -125,6 +174,24 @@
   tags:
     - cursed
     - miscellaneous
+- id: animatica
+  names:
+    - animatica
+  packages:
+    - FoundationGames.animatica
+  tags:
+    - utility
+    - decoration
+    - miscellaneous
+    - cosmetic
+    - optifine-alternative
+- id: clear-skies
+  names:
+    - clear-skies
+  packages:
+    - Grondag.clear-skies
+  tags:
+    - cosmetic
 - id: lambdynlights
   names:
     - lambdynlights

@@ -1,0 +1,50 @@
+# yaml-language-server: $schema=../../../../doc/validation-schemas/3.1/manifest.json
+
+manifestSpecVersion: "3.1"
+publisher: EmilyPloszaj
+id: chime
+modType: jar
+side: client
+name: Chime
+description: Adds more capabilities to item models
+license: MIT
+home: https://github.com/emilyploszaj/chime
+source: https://github.com/emilyploszaj/chime
+issues: https://github.com/emilyploszaj/chime/issues
+wiki: https://github.com/emilyploszaj/chime/wiki
+chat: https://discord.com/invite/T2PuD9RTWV
+thirdPartyIds:
+  modrinth: "ubxU84eR"
+  curseforge: "432776"
+downloads:
+  - version: "1.1.3"
+    loaders:
+      - fabric
+    minecraftVersions:
+      - "1.16.5"
+      - "1.16.4"
+      - "1.16.3"
+      - "1.16.2"
+      - "1.16.1"
+      - "1.16"
+    md5: e4081473cdaf645cd20c63cc1b31854c
+    depends:
+      - packageId: FabricMC.fabric
+        version: "*"
+    recommends:
+      - packageId: TerraformersMC.modmenu
+        version: "*"
+    downloadPageUrls:
+      - name: Modrinth
+        url: https://modrinth.com/mod/chime/version/NmWEi0dZ
+      - name: GitHub
+        url: https://github.com/emilyploszaj/chime/releases/tag/1.1.3
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/chime-fabric/files/3285347
+    fileUrls:
+      - name: Modrinth
+        url: https://cdn.modrinth.com/data/ubxU84eR/versions/1.1.3/chime-1.1.3.jar
+      - name: GitHub
+        url: https://github.com/emilyploszaj/chime/releases/download/1.1.3/chime-1.1.3.jar
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/chime-fabric/download/3285347/file
