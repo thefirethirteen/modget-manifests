@@ -1,0 +1,41 @@
+# yaml-language-server: $schema=../../../../doc/validation-schemas/3.1/manifest.json
+
+manifestSpecVersion: "3.1"
+publisher: FoundationGames
+id: animatica
+modType: jar
+side: client
+name: Animatica
+description: Allow for animating more game textures using the MCPatcher/OptiFine animation format
+license: LGPL-3.0
+home: https://github.com/FoundationGames/Animatica
+source: https://github.com/FoundationGames/Animatica
+issues: https://github.com/FoundationGames/Animatica/issues
+chat: https://discord.gg/7Aw3y4RtY9
+thirdPartyIds:
+  modrinth: "PRN43VSY"
+  curseforge: "533006"
+downloads:
+  - version: "0.1"
+    loaders:
+      - fabric
+    minecraftVersions:
+      - "1.17.1"
+      - "1.17"
+    md5: 984a49fd7f71a29a4f4f299508e7bdc8
+    depends:
+      - packageId: FabricMC.fabric
+        version: "*"
+    breaks:
+      - packageId: Chocohead.optifabric
+        version: "*"
+    downloadPageUrls:
+      - name: Modrinth
+        url: https://modrinth.com/mod/animatica/version/NXTzSfcj
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/animatica/files/3478564
+    fileUrls:
+      - name: Modrinth
+        url: https://cdn.modrinth.com/data/PRN43VSY/versions/0.1+1.17/animatica-0.1+1.17.jar
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/animatica/download/3478564/file
