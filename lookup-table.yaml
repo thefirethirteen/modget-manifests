@@ -2,6 +2,7 @@
 
 - id: fabricskyboxes
   names:
+    - fabricskyboxes
     - fabric-skyboxes
   packages:
     - AMereBagatelle.fabricskyboxes
@@ -12,6 +13,7 @@
     - optifine-alternative
 - id: architectury
   names:
+    - architectury
     - architectury-api
   packages:
     - architectury.architectury
@@ -113,6 +115,7 @@
     - worldgen
 - id: varied-mobs
   names:
+    - varied-mobs
     - varied-mob-textures
   packages:
     - Digifox03.varied-mobs
