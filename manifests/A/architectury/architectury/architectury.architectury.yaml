@@ -1,0 +1,44 @@
+# yaml-language-server: $schema=../../../../doc/validation-schemas/3.1/manifest.json
+
+manifestSpecVersion: "3.1"
+publisher: architectury
+id: architectury
+modType: jar
+side: both
+name: Architectury
+description: A intermediary api aimed to ease developing multiplatform mods.
+license: LGPL-3.0
+home: https://architectury.github.io/architectury-documentations/
+source: https://github.com/architectury/architectury-api
+issues: https://github.com/architectury/architectury-api/issues
+wiki: https://architectury.github.io/architectury-documentations/
+chat: https://discord.gg/C2RdJDpRBP
+thirdPartyIds:
+  modrinth: ~
+  curseforge: "419697"
+downloads:
+  - version: "2.6.35"
+    loaders:
+      - fabric
+    minecraftVersions:
+      - "1.17.1"
+    md5: fde6a55d4165e79e92a84d94e3c6eebf
+    downloadPageUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/architectury-fabric/files/3500017
+    fileUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/architectury-fabric/download/3500017/file
+  - version: "1.24.35"
+    loaders:
+      - fabric
+    minecraftVersions:
+      - "1.16.5"
+      - "1.16.4"
+    md5: c8a19c9870eb610a1fb16a3b2b6e7d4a
+    downloadPageUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/architectury-fabric/files/3500013
+    fileUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/architectury-fabric/download/3500013/file

@@ -10,6 +10,14 @@
     - utility
     - miscellaneous
     - optifine-alternative
+- id: architectury
+  names:
+    - architectury-api
+  packages:
+    - architectury.architectury
+  tags:
+    - api
+    - library
 - id: fdlink
   names:
     - fabric-discord-link
