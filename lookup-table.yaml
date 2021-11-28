@@ -131,6 +131,17 @@
     - cosmetic
     - miscellaneous
     - optifine-alternative
+- id: chime
+  names:
+    - chime
+  packages:
+    - EmilyPloszaj.chime
+  tags:
+    - library
+    - api
+    - utility
+    - miscellaneous
+    - optifine-alternative
 - id: okzoomer
   names:
     - okzoomer
