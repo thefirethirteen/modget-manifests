@@ -111,6 +111,14 @@
     - adventure
     - utility
     - worldgen
+- id: varied-mobs
+  names:
+    - varied-mob-textures
+  packages:
+    - Digifox03.varied-mobs
+  tags:
+    - mobs
+    - optifine-alternative
 - id: okzoomer
   names:
     - okzoomer

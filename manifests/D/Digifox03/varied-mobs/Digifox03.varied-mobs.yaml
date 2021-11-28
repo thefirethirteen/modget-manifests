@@ -1,0 +1,39 @@
+# yaml-language-server: $schema=../../../../doc/validation-schemas/3.1/manifest.json
+
+manifestSpecVersion: "3.1"
+publisher: Digifox03
+id: varied-mobs
+modType: jar
+side: client
+name: Varied Mob Textures
+description: allows resource packs to have randomly selected multiple textures for mobs
+license: GPL-3.0
+home: https://www.curseforge.com/minecraft/mc-mods/varied-mob-textures
+source: https://github.com/Digifox03/variedMobs
+issues: https://github.com/Digifox03/variedMobs/issues
+wiki: https://github.com/Digifox03/variedMobs/wiki
+chat: https://discord.gg/pZZ5ubrwQK
+thirdPartyIds:
+  modrinth: ~
+  curseforge: "399578"
+downloads:
+  - version: "1.0"
+    loaders:
+      - fabric
+    minecraftVersions:
+      - "1.17.1"
+      - "1.17"
+    md5: d04cd0d610c50e41b0cdd42c2c1e5fd7
+    depends:
+      - packageId: FabricMC.fabric-language-kotlin
+        version: ">=1.4.0"
+    downloadPageUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/varied-mob-textures/files/3113381
+      - name: GitHub
+        url: https://github.com/Digifox03/variedMobs/releases/tag/v1.0
+    fileUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/varied-mob-textures/download/3113381/file
+      - name: GitHub
+        url: https://github.com/Digifox03/variedMobs/releases/download/v1.0/varied-mobs-1.0.0.jar
