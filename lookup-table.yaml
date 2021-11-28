@@ -119,6 +119,15 @@
   tags:
     - mobs
     - optifine-alternative
+- id: soaring-clouds
+  names:
+    - soaring-clouds
+  packages:
+    - Draylar.soaring-clouds
+  tags:
+    - cosmetic
+    - miscellaneous
+    - optifine-alternative
 - id: okzoomer
   names:
     - okzoomer
