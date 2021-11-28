@@ -185,6 +185,13 @@
     - miscellaneous
     - cosmetic
     - optifine-alternative
+- id: clear-skies
+  names:
+    - clear-skies
+  packages:
+    - Grondag.clear-skies
+  tags:
+    - cosmetic
 - id: lambdynlights
   names:
     - lambdynlights
