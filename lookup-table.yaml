@@ -1,15 +1,5 @@
 # yaml-language-server: $schema=./doc/validation-schemas/4.0/lookup-table.json
 
-- id: architectury
-  alternativeNames:
-    - architectury-api
-  tags:
-    - api
-    - library
-  packages:
-    - packageId: architectury.architectury
-      loaders:
-        - fabric
 - id: recipecache
   alternativeNames:
     - recipe-cache
