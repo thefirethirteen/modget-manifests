@@ -1,0 +1,12 @@
+# yaml-language-server: $schema=../../../doc/validation-schemas/4.0/lookup-table.json
+
+- id: recipecache
+  alternativeNames:
+    - recipe-cache
+  tags:
+    - utility
+    - performance
+  packages:
+    - packageId: Biom4st3r.recipecache
+      loaders:
+        - fabric
