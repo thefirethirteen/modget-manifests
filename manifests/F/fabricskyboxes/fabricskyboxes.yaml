@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=../../../doc/validation-schemas/4.0/lookup-table.json
+
+- id: fabricskyboxes
+  alternativeNames:
+    - fabric-skyboxes
+  tags:
+    - cosmetic
+    - utility
+    - miscellaneous
+    - optifine-alternative
+  packages:
+    - packageId: fabricskyboxes.AMereBagatelle
+      loaders:
+        - fabric
