@@ -1,15 +1,5 @@
 # yaml-language-server: $schema=./doc/validation-schemas/5.0-alpha.2/lookup-table.json
 
-- id: logical_zoom
-  alternativeNames:
-    - logical-zoom
-  tags:
-    - cosmetic
-    - optifine-alternative
-  packages:
-    - packageId: LogicalGeekBoy.logical_zoom
-      loaders:
-        - fabric
 - id: ferritecore
   alternativeNames:
     - ferrite-core

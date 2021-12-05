@@ -1,0 +1,12 @@
+# yaml-language-server: $schema=../../../doc/validation-schemas/4.0/lookup-table.json
+
+- id: logical_zoom
+  alternativeNames:
+    - logical-zoom
+  tags:
+    - cosmetic
+    - optifine-alternative
+  packages:
+    - packageId: logical_zoom.LogicalGeekBoy
+      loaders:
+        - fabric
