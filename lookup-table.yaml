@@ -1,16 +1,5 @@
 # yaml-language-server: $schema=./doc/validation-schemas/5.0-alpha.2/lookup-table.json
 
-- id: okzoomer
-  alternativeNames:
-    - ok-zoomer
-  tags:
-    - utility
-    - miscellaneous
-    - optifine-alternative
-  packages:
-    - packageId: EnnuiL.okzoomer
-      loaders:
-        - fabric
 - id: fabric
   alternativeNames:
     - fabric-api
