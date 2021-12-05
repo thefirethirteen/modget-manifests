@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=../../../doc/validation-schemas/4.0/lookup-table.json
+
+- id: chime
+  alternativeNames: ~
+  tags:
+    - library
+    - api
+    - utility
+    - miscellaneous
+    - optifine-alternative
+  packages:
+    - packageId: chime.EmilyPloszaj
+      loaders:
+        - fabric
