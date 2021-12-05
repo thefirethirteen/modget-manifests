@@ -1,16 +1,5 @@
 # yaml-language-server: $schema=./doc/validation-schemas/5.0-alpha.2/lookup-table.json
 
-- id: fabulousclouds
-  alternativeNames:
-    - fabulous-clouds
-  tags:
-    - cosmetic
-    - miscellaneous
-    - optifine-alternative
-  packages:
-    - packageId: misterslime.fabulousclouds
-      loaders:
-        - fabric
 - id: dark-loading-screen
   alternativeNames: ~
   tags:
