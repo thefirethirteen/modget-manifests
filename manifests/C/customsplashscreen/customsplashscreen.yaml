@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=../../../doc/validation-schemas/4.0/lookup-table.json
+
+- id: customsplashscreen
+  alternativeNames:
+    - custom-splash-screen
+  tags:
+    - utility
+    - decoration
+    - miscellaneous
+    - cosmetic
+    - optifine-alternative
+  packages:
+    - packageId: customsplashscreen.TeamMidnightDust
+      loaders:
+        - fabric

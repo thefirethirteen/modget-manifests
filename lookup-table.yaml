@@ -1,18 +1,5 @@
 # yaml-language-server: $schema=./doc/validation-schemas/5.0-alpha.2/lookup-table.json
 
-- id: customsplashscreen
-  alternativeNames:
-    - custom-splash-screen
-  tags:
-    - utility
-    - decoration
-    - miscellaneous
-    - cosmetic
-    - optifine-alternative
-  packages:
-    - packageId: TeamMidnightDust.customsplashscreen
-      loaders:
-        - fabric
 - id: modmenu
   alternativeNames:
     - mod-menu
