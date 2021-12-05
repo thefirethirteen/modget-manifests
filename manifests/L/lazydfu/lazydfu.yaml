@@ -1,0 +1,13 @@
+# yaml-language-server: $schema=../../../doc/validation-schemas/4.0/lookup-table.json
+
+- id: lazydfu
+  alternativeNames:
+    - lazy-dfu
+  tags:
+    - utility
+    - miscellaneous
+    - performance
+  packages:
+    - packageId: lazydfu.tuxed
+      loaders:
+        - fabric

@@ -1,16 +1,5 @@
 # yaml-language-server: $schema=./doc/validation-schemas/5.0-alpha.2/lookup-table.json
 
-- id: lazydfu
-  alternativeNames:
-    - lazy-dfu
-  tags:
-    - utility
-    - miscellaneous
-    - performance
-  packages:
-    - packageId: tuxed.lazydfu
-      loaders:
-        - fabric
 - id: resolutioncontrol
   alternativeNames: ~
   tags:
