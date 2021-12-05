@@ -1,16 +1,5 @@
 # yaml-language-server: $schema=./doc/validation-schemas/5.0-alpha.2/lookup-table.json
 
-- id: fdlink
-  alternativeNames:
-    - fabric-discord-link
-  tags:
-    - utility
-    - miscellaneous
-    - information
-  packages:
-    - packageId: CatCore.fdlink
-      loaders:
-        - fabric
 - id: optifabric
   alternativeNames:
     - opti-fabric
