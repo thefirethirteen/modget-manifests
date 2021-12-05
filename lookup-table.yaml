@@ -1,15 +1,5 @@
 # yaml-language-server: $schema=./doc/validation-schemas/5.0-alpha.2/lookup-table.json
 
-- id: raisedclouds
-  alternativeNames:
-    - raised-clouds
-  tags:
-    - cosmetic
-    - optifine-alternative
-  packages:
-    - packageId: haykam.raisedclouds
-      loaders:
-        - fabric
 - id: dynamicfps
   alternativeNames:
     - dynamic-fps
