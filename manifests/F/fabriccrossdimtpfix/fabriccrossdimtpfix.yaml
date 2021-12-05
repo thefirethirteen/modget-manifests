@@ -1,0 +1,11 @@
+# yaml-language-server: $schema=../../../doc/validation-schemas/4.0/lookup-table.json
+
+- id: fabriccrossdimtpfix
+  alternativeNames:
+    - fabric-cross-dimension-teleportation-fix
+  tags:
+    - miscellaneous
+  packages:
+    - packageId: fabriccrossdimtpfix.CodedSakura
+      loaders:
+        - fabric
