@@ -1,14 +1,5 @@
 # yaml-language-server: $schema=./doc/validation-schemas/5.0-alpha.2/lookup-table.json
 
-- id: splash
-  alternativeNames: ~
-  tags:
-    - cosmetic
-    - optifine-alternative
-  packages:
-    - packageId: LoganDark.splash
-      loaders:
-        - fabric
 - id: logical_zoom
   alternativeNames:
     - logical-zoom
