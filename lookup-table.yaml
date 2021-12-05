@@ -1,14 +1,5 @@
 # yaml-language-server: $schema=./doc/validation-schemas/5.0-alpha.2/lookup-table.json
 
-- id: resolutioncontrol
-  alternativeNames: ~
-  tags:
-    - utility
-    - miscellaneous
-  packages:
-    - packageId: UltimateBoomer.resolutioncontrol
-      loaders:
-        - fabric
 - id: smoothboot
   alternativeNames:
     - smooth-boot

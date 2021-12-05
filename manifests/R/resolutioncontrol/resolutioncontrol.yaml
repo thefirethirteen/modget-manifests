@@ -1,0 +1,11 @@
+# yaml-language-server: $schema=../../../doc/validation-schemas/4.0/lookup-table.json
+
+- id: resolutioncontrol
+  alternativeNames: ~
+  tags:
+    - utility
+    - miscellaneous
+  packages:
+    - packageId: resolutioncontrol.UltimateBoomer
+      loaders:
+        - fabric
