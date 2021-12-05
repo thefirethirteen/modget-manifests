@@ -1,16 +1,5 @@
 # yaml-language-server: $schema=./doc/validation-schemas/5.0-alpha.2/lookup-table.json
 
-- id: autoconfig1u
-  alternativeNames:
-    - auto-config
-    - auto-config-api
-  tags:
-    - library
-    - api
-  packages:
-    - packageId: shedaniel.autoconfig1u
-      loaders:
-        - fabric
 - id: cloth-config2
   alternativeNames:
     - cloth-config
