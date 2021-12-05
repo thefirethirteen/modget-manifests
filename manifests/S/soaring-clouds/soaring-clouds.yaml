@@ -1,0 +1,12 @@
+# yaml-language-server: $schema=../../../doc/validation-schemas/4.0/lookup-table.json
+
+- id: soaring-clouds
+  alternativeNames: ~
+  tags:
+    - cosmetic
+    - miscellaneous
+    - optifine-alternative
+  packages:
+    - packageId: soaring-clouds.Draylar
+      loaders:
+        - fabric
