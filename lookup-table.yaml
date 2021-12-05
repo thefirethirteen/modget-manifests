@@ -1,18 +1,5 @@
 # yaml-language-server: $schema=./doc/validation-schemas/5.0-alpha.2/lookup-table.json
 
-- id: phosphor
-  alternativeNames:
-    - phosphor-fabric
-  tags:
-    - utility
-    - worldgen
-    - miscellaneous
-    - performance
-    - optifine-alternative
-  packages:
-    - packageId: CaffeineMC.phosphor
-      loaders:
-        - fabric
 - id: sodium
   alternativeNames:
     - sodium-fabric
