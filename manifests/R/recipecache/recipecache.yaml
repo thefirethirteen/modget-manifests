@@ -7,6 +7,6 @@
     - utility
     - performance
   packages:
-    - packageId: Biom4st3r.recipecache
+    - packageId: recipecache.Biom4st3r
       loaders:
         - fabric
