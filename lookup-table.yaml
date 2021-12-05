@@ -1,15 +1,5 @@
 # yaml-language-server: $schema=./doc/validation-schemas/5.0-alpha.2/lookup-table.json
 
-- id: dark-loading-screen
-  alternativeNames: ~
-  tags:
-    - vanilla-plus
-    - cosmetic
-    - optifine-alternative
-  packages:
-    - packageId: Neecko5b84.dark-loading-screen
-      loaders:
-        - fabric
 - id: connected_block_textures
   alternativeNames:
     - cbt

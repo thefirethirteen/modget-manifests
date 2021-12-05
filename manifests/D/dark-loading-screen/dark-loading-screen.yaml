@@ -1,0 +1,12 @@
+# yaml-language-server: $schema=../../../doc/validation-schemas/4.0/lookup-table.json
+
+- id: dark-loading-screen
+  alternativeNames: ~
+  tags:
+    - vanilla-plus
+    - cosmetic
+    - optifine-alternative
+  packages:
+    - packageId: dark-loading-screen.Neecko5b84
+      loaders:
+        - fabric
