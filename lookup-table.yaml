@@ -1,15 +1,5 @@
 # yaml-language-server: $schema=./doc/validation-schemas/5.0-alpha.2/lookup-table.json
 
-- id: dynamicfps
-  alternativeNames:
-    - dynamic-fps
-  tags:
-    - utility
-    - miscellaneous
-  packages:
-    - packageId: juliand665.dynamicfps
-      loaders:
-        - fabric
 - id: colormatic
   alternativeNames: ~
   tags:
