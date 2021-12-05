@@ -1,13 +1,5 @@
 # yaml-language-server: $schema=./doc/validation-schemas/5.0-alpha.2/lookup-table.json
 
-- id: transparent
-  alternativeNames: ~
-  tags:
-    - cosmetic
-  packages:
-    - packageId: Trikzon.transparent
-      loaders:
-        - fabric
 - id: krypton
   alternativeNames: ~
   tags:
