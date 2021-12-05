@@ -1,16 +1,5 @@
 # yaml-language-server: $schema=./doc/validation-schemas/5.0-alpha.2/lookup-table.json
 
-- id: cloth-config2
-  alternativeNames:
-    - cloth-config
-  tags:
-    - library
-    - api
-  packages:
-    - packageId: shedaniel.cloth-config2
-      loaders:
-        - fabric
-        - forge
 - id: citresewn
   alternativeNames: ~
   tags:

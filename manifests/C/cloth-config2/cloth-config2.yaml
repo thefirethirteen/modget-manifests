@@ -1,0 +1,13 @@
+# yaml-language-server: $schema=../../../doc/validation-schemas/4.0/lookup-table.json
+
+- id: cloth-config2
+  alternativeNames:
+    - cloth-config
+  tags:
+    - library
+    - api
+  packages:
+    - packageId: cloth-config2.shedaniel
+      loaders:
+        - fabric
+        - forge
