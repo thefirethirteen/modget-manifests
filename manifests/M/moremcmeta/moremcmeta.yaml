@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=../../../doc/validation-schemas/4.0/lookup-table.json
+
+- id: moremcmeta
+  alternativeNames:
+    - more-mcmeta
+    - more-mc-meta
+  tags:
+    - cosmetic
+    - utility
+    - decoration
+    - optifine-alternative
+  packages:
+    - packageId: moremcmeta.soir20
+      loaders:
+        - fabric

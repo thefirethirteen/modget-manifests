@@ -1,18 +1,5 @@
 # yaml-language-server: $schema=./doc/validation-schemas/5.0-alpha.2/lookup-table.json
 
-- id: moremcmeta
-  alternativeNames:
-    - more-mcmeta
-    - more-mc-meta
-  tags:
-    - cosmetic
-    - utility
-    - decoration
-    - optifine-alternative
-  packages:
-    - packageId: soir20.moremcmeta
-      loaders:
-        - fabric
 - id: discerning_furnace
   alternativeNames:
     - discerning-furnace
