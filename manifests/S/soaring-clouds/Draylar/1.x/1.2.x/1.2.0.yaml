@@ -16,7 +16,7 @@
   depends: ~
   bundles: ~
   breaks:
-    - packageId: Chocohead.optifabric
+    - packageId: optifabric.Chocohead
       version: "*"
   conflicts: ~
   recommends: ~

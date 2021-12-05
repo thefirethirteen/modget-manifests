@@ -11,18 +11,18 @@
   channel: beta
   depends: ~
   bundles:
-    - packageId: Grondag.frex
+    - packageId: frex.Grondag
       version: "6.0.175"
-    - packageId: CottonMC.jankson
+    - packageId: jankson.CottonMC
       version: "3.0.1"
-    - packageId: shedaniel.cloth-config2
+    - packageId: cloth-config2.shedaniel
       version: "5.0.34"
-    - packageId: Grondag.json-model-extensions
+    - packageId: json-model-extensions.Grondag
       version: "1.22.218"
   breaks:
-    - packageId: CaffeineMC.sodium
+    - packageId: sodium.CaffeineMC
       version: "*"
-    - packageId: juliand665.retino
+    - packageId: retino.juliand665
       version: "*"
   conflicts: ~
   recommends: ~

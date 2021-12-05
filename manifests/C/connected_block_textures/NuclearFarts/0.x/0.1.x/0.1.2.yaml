@@ -14,7 +14,7 @@
     client: required
   channel: beta
   depends:
-    - packageId: FabricMC.fabric
+    - packageId: fabric.FabricMC
       version: "*"
   bundles: ~
   breaks: ~

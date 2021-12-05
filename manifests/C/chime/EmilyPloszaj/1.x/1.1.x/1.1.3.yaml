@@ -14,13 +14,13 @@
     client: required
   channel: beta
   depends:
-    - packageId: FabricMC.fabric
+    - packageId: fabric.FabricMC
       version: "*"
   bundles: ~
   breaks: ~
   conflicts: ~
   recommends:
-    - packageId: TerraformersMC.modmenu
+    - packageId: modmenu.TerraformersMC
       version: "*"
   thirdPartyIds:
     modrinth: "ubxU84eR"

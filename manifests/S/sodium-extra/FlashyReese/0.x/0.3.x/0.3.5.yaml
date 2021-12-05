@@ -10,15 +10,15 @@
     client: required
   channel: release
   depends:
-    - packageId: FabricMC.fabric
+    - packageId: fabric.FabricMC
       version: "*"
-    - packageId: CaffeineMC.sodium
+    - packageId: sodium.CaffeineMC
       version: "0.3.x"
   bundles: ~
   breaks: ~
   conflicts: ~
   recommends:
-    - packageId: FlashyReese.reeses-sodium-options
+    - packageId: reeses-sodium-options.FlashyReese
       version: "*"
   thirdPartyIds:
     modrinth: "PtjYWJkn"
@@ -49,21 +49,21 @@
     client: required
   channel: release
   depends:
-    - packageId: FabricMC.fabric
+    - packageId: fabric.FabricMC
       version: "*"
-    - packageId: CaffeineMC.sodium
+    - packageId: sodium.CaffeineMC
       version: "*"
   bundles: ~
   breaks:
-    - packageId: CaffeineMC.sodium
+    - packageId: sodium.CaffeineMC
       version: "0.1.x"
-    - packageId: IrisShaders.sodium
+    - packageId: sodium.IrisShaders
       version: "0.2.0+IRIS_rev.400af47"
-    - packageId: CaffeineMC.sodium
+    - packageId: sodium.CaffeineMC
       version: ">=0.3.x"
   conflicts: ~
   recommends:
-    - packageId: FlashyReese.reeses-sodium-options
+    - packageId: reeses-sodium-options.FlashyReese
       version: "*"
   thirdPartyIds:
     modrinth: "PtjYWJkn"

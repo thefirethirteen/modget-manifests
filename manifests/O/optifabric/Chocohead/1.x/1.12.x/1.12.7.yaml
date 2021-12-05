@@ -18,20 +18,20 @@
   depends: ~
   bundles: ~
   breaks:
-    - packageId: Virtuoel.no_fog
+    - packageId: no_fog.Virtuoel
       version: "*"
-    - packageId: IsaiahMC.thallium
+    - packageId: thallium.IsaiahMC
       version: "*"
-    - packageId: user11681.xradiation
+    - packageId: xradiation.user11681
       version: "*"
-    - packageId: OnyxStudios.cardinal-components
+    - packageId: cardinal-components.OnyxStudios
       version: "<2.4.2"
     - packageId: architectury.architectury
       version: ">1.2.72 <1.3.77"
-    - packageId: MeteorDevelopment.meteor-client
+    - packageId: meteor-client.MeteorDevelopment
       version: ">=0.4.1"
   conflicts:
-    - packageId: CaffeineMC.sodium
+    - packageId: sodium.CaffeineMC
       version: "*"
   recommends: ~
   thirdPartyIds:

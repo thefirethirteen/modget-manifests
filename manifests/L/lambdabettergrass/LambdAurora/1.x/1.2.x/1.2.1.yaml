@@ -11,15 +11,15 @@
     client: required
   channel: release
   depends:
-    - packageId: FabricMC.fabric
+    - packageId: fabric.FabricMC
       version: ">=0.36.0"
   bundles: ~
   breaks:
-    - packageId: Chocohead.optifabric
+    - packageId: optifabric.Chocohead
       version: "*"
   conflicts: ~
   recommends:
-    - packageId: TerraformersMC.modmenu
+    - packageId: modmenu.TerraformersMC
       version: ">=2.0.0"
   thirdPartyIds:
     modrinth: "2Uev7LdA"

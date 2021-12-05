@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=../../../../../doc/validation-schemas/4.0/version-manifest.json
+# yaml-language-server: $schema=../../../../../../doc/validation-schemas/4.0/version-manifest.json
 
 - loaders:
     - fabric
@@ -12,9 +12,9 @@
   depends: ~
   bundles: ~
   breaks:
-    - packageId: NuclearFarts.connected_block_textures
+    - packageId: connected_block_textures.NuclearFarts
       version: "*"
-    - packageId: CaffeineMC.sodium
+    - packageId: sodium.CaffeineMC
       version: "<=0.1.0"
   conflicts: ~
   recommends: ~

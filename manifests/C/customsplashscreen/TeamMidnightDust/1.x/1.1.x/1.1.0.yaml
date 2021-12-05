@@ -10,13 +10,13 @@
     client: required
   channel: release
   depends:
-    - packageId: shedaniel.cloth-config2
+    - packageId: cloth-config2.shedaniel
       version: ">5.0.0"
   bundles: ~
   breaks:
-    - packageId: Neecko5b84.darkloadingscreen
+    - packageId: darkloadingscreen.Neecko5b84
       version: "*"
-    - packageId: LoganDark.splash
+    - packageId: splash.LoganDark
       version: "*"
   conflicts: ~
   recommends: ~

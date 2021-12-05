@@ -12,7 +12,7 @@
   depends: ~
   bundles: ~
   breaks:
-    - packageId: CaffeineMC.phosphor
+    - packageId: phosphor.CaffeineMC
       version: "*"
   conflicts: ~
   recommends: ~

@@ -16,13 +16,13 @@
     client: optional
   channel: beta
   depends:
-    - packageId: FabricMC.fabric
+    - packageId: fabric.FabricMC
       version: "*"
   bundles: ~
   breaks: ~
   conflicts: ~
   recommends:
-    - packageId: CatCore.server_translations
+    - packageId: server_translations.CatCore
       version: "*"
   thirdPartyIds:
     modrinth: "2NpFE0R3"

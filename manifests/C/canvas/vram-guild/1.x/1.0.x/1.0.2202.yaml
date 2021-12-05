@@ -12,7 +12,7 @@
   depends: ~
   bundles: ~
   breaks:
-    - packageId: CaffeineMC.sodium
+    - packageId: sodium.CaffeineMC
       version: "*"
   conflicts: ~
   recommends: ~

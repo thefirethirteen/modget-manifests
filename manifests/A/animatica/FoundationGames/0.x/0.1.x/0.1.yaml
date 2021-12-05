@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=../../../../../doc/validation-schemas/4.0/version-manifest.json
+# yaml-language-server: $schema=../../../../../../doc/validation-schemas/4.0/version-manifest.json
 
 - loaders:
     - fabric
@@ -10,11 +10,11 @@
     client: required
   channel: release
   depends:
-    - packageId: FabricMC.fabric
+    - packageId: fabric.FabricMC
       version: "*"
   bundles: ~
   breaks:
-    - packageId: Chocohead.optifabric
+    - packageId: optifabric.Chocohead
       version: "*"
   conflicts: ~
   recommends: ~

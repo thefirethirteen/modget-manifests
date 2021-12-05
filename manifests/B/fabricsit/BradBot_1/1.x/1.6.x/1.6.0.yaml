@@ -10,7 +10,7 @@
     client: unsupported
   channel: release
   depends:
-    - packageId: BradBot_1.bfapi
+    - packageId: bfapi.BradBot_1
       version: ">=1.1.6"
   bundles: ~
   breaks: ~

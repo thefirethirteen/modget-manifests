@@ -12,9 +12,9 @@
   depends: ~
   bundles: ~
   breaks:
-    - packageId: Chocohead.optifabric
+    - packageId: optifabric.Chocohead
       version: "*"
-    - packageId: vram-guild.canvas
+    - packageId: canvas.vram-guild
       version: "*"
   conflicts: ~
   recommends: ~

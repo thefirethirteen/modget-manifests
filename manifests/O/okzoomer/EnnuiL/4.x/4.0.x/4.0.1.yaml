@@ -12,13 +12,13 @@
     client: required
   channel: release
   depends:
-    - packageId: FabricMC.fabric
+    - packageId: fabric.FabricMC
       version: ">=0.14.0"
   bundles: ~
   breaks: ~
   conflicts: ~
   recommends:
-    - packageId: TerraformersMC.modmenu
+    - packageId: modmenu.TerraformersMC
       version: ">=1.14.6"
   thirdPartyIds:
     modrinth: "aXf2OSFU"

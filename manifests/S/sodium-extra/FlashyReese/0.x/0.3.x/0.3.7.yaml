@@ -9,15 +9,15 @@
     client: required
   channel: release
   depends:
-    - packageId: FabricMC.fabric
+    - packageId: fabric.FabricMC
       version: "*"
-    - packageId: CaffeineMC.sodium
+    - packageId: sodium.CaffeineMC
       version: "0.4.0-alpha5"
   bundles: ~
   breaks: ~
   conflicts: ~
   recommends:
-    - packageId: FlashyReese.reeses-sodium-options
+    - packageId: reeses-sodium-options.FlashyReese
       version: ">=1.2.3"
   thirdPartyIds:
     modrinth: "PtjYWJkn"

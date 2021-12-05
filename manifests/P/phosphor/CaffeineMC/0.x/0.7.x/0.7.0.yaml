@@ -14,7 +14,7 @@
   depends: ~
   bundles: ~
   breaks:
-    - packageId: PaperMC.starlight
+    - packageId: starlight.PaperMC
       version: "*"
   conflicts: ~
   recommends: ~

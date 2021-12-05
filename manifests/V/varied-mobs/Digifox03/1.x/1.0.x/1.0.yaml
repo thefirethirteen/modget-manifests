@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=../../../../../doc/validation-schemas/4.0/version-manifest.json
+# yaml-language-server: $schema=../../../../../../doc/validation-schemas/4.0/version-manifest.json
 
 - loaders:
     - fabric
@@ -14,7 +14,7 @@
     client: required
   channel: release
   depends:
-    - packageId: FabricMC.fabric-language-kotlin
+    - packageId: fabric-language-kotlin.FabricMC
       version: ">=1.4.0"
   bundles: ~
   breaks: ~

@@ -10,13 +10,13 @@
     client: required
   channel: beta
   depends:
-    - packageId: FabricMC.fabric-language-kotlin
+    - packageId: fabric-language-kotlin.FabricMC
       version: "*"
   bundles: ~
   breaks:
-    - packageId: TeamMidnightDust.customsplashscreen
+    - packageId: customsplashscreen.TeamMidnightDust
       version: "*"
-    - packageId: Neecko5b84.dark-loading-screen
+    - packageId: dark-loading-screen.Neecko5b84
       version: "*"
   conflicts: ~
   recommends: ~

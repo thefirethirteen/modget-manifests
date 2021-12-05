@@ -14,15 +14,15 @@
     client: required
   channel: release
   depends:
-    - packageId: FabricMC.fabric
+    - packageId: fabric.FabricMC
       version: "*"
   bundles: ~
   breaks: ~
   conflicts: ~
   recommends:
-    - packageId: TerraformersMC.modmenu
+    - packageId: modmenu.TerraformersMC
       version: ">1.0.0"
-    - packageId: shedaniel.cloth-config2
+    - packageId: cloth-config2.shedaniel
       version: ">4.0.0"
   thirdPartyIds:
     modrinth: "3qsfQtE9"

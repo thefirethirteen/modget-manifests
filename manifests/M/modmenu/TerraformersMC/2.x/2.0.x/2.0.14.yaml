@@ -10,13 +10,13 @@
     client: required
   channel: release
   depends:
-    - packageId: FabricMC.fabric
+    - packageId: fabric.FabricMC
       version: ">=0.35.0+1.17"
   bundles: ~
   breaks:
-    - packageId: FabricMC.fabric
+    - packageId: fabric.FabricMC
       version: "<0.30.0"
-    - packageId: Minenash.better_mod_button
+    - packageId: better_mod_button.Minenash
       version: "*"
   conflicts: ~
   recommends: ~

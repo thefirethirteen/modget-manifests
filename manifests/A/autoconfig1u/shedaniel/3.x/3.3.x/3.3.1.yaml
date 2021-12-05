@@ -16,7 +16,7 @@
     client: required
   channel: release
   depends:
-    - packageId: shedaniel.cloth-config2
+    - packageId: cloth-config2.shedaniel
       version: "*"
   bundles: ~
   breaks: ~

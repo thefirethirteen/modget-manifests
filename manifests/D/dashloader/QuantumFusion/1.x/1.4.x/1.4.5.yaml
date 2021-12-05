@@ -11,13 +11,13 @@
   depends: ~
   bundles: ~
   breaks:
-    - packageId: NuclearFarts.connected_block_textures
+    - packageId: connected_block_textures.NuclearFarts
       version: "*"
-    - packageId: FoundationGames.enhancedblockentities
+    - packageId: enhancedblockentities.FoundationGames
       version: "*"
-    - packageId: Chocohead.optifabric
+    - packageId: optifabric.Chocohead
       version: "*"
-    - packageId: CaffeineMC.sodium
+    - packageId: sodium.CaffeineMC
       version: "<=0.1.0"
   conflicts: ~
   recommends: ~
