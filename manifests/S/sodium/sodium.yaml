@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=../../../doc/validation-schemas/4.0/lookup-table.json
+
+- id: sodium
+  alternativeNames:
+    - sodium-fabric
+  tags:
+    - utility
+    - miscellaneous
+    - performance
+    - optifine-alternative
+  packages:
+    - packageId: sodium.CaffeineMC
+      loaders:
+        - fabric
