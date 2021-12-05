@@ -1,16 +1,5 @@
 # yaml-language-server: $schema=./doc/validation-schemas/5.0-alpha.2/lookup-table.json
 
-- id: dashloader
-  alternativeNames: ~
-  tags:
-    - utility
-    - library
-    - miscellaneous
-    - api
-  packages:
-    - packageId: QuantumFusion.dashloader
-      loaders:
-        - fabric
 - id: fabrishot
   alternativeNames: ~
   tags:

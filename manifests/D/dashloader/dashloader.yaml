@@ -1,0 +1,13 @@
+# yaml-language-server: $schema=../../../doc/validation-schemas/4.0/lookup-table.json
+
+- id: dashloader
+  alternativeNames: ~
+  tags:
+    - utility
+    - library
+    - miscellaneous
+    - api
+  packages:
+    - packageId: dashloader.QuantumFusion
+      loaders:
+        - fabric
