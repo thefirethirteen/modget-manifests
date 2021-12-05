@@ -1,15 +1,5 @@
 # yaml-language-server: $schema=./doc/validation-schemas/5.0-alpha.2/lookup-table.json
 
-- id: colormatic
-  alternativeNames: ~
-  tags:
-    - cosmetic
-    - decoration
-    - utility
-  packages:
-    - packageId: kvverti.colormatic
-      loaders:
-        - fabric
 - id: lambdabettergrass
   alternativeNames:
     - lambda-better-grass
