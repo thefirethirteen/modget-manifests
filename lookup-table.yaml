@@ -1,15 +1,5 @@
 # yaml-language-server: $schema=./doc/validation-schemas/5.0-alpha.2/lookup-table.json
 
-- id: hydrogen
-  alternativeNames:
-    - hydrogen-fabric
-  tags:
-    - utility
-    - performance
-  packages:
-    - packageId: CaffeineMC.hydrogen
-      loaders:
-        - fabric
 - id: lithium
   alternativeNames:
     - lithium-fabric
