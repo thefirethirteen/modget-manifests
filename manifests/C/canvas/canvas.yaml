@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../../../doc/validation-schemas/4.0/lookup-table.json
+
+- id: canvas
+  alternativeNames:
+    - canvas-renderer
+  tags:
+    - utility
+    - library
+    - miscellaneous
+    - api
+    - cosmetic
+    - optifine-alternative
+  packages:
+    - packageId: canvas.vram-guild
+      loaders:
+        - fabric
