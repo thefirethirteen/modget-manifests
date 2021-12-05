@@ -1,14 +1,5 @@
 # yaml-language-server: $schema=./doc/validation-schemas/5.0-alpha.2/lookup-table.json
 
-- id: sodium-extra
-  alternativeNames: ~
-  tags:
-    - cursed
-    - miscellaneous
-  packages:
-    - packageId: FlashyReese.sodium-extra
-      loaders:
-        - fabric
 - id: animatica
   alternativeNames: ~
   tags:
