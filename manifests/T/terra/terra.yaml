@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=../../../doc/validation-schemas/4.0/lookup-table.json
+
+- id: terra
+  alternativeNames: ~
+  tags:
+    - adventure
+    - utility
+    - worldgen
+    - biomes
+    - dimensions
+    - structures
+  packages:
+    - packageId: terra.dfsek
+      loaders:
+        - fabric
