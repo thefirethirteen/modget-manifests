@@ -1,13 +1,5 @@
 # yaml-language-server: $schema=./doc/validation-schemas/5.0-alpha.2/lookup-table.json
 
-- id: clear-skies
-  alternativeNames: ~
-  tags:
-    - cosmetic
-  packages:
-    - packageId: Grondag.clear-skies
-      loaders:
-        - fabric
 - id: raisedclouds
   alternativeNames:
     - raised-clouds
