@@ -1,14 +1,14 @@
 {
-  "$id": "https://raw.githubusercontent.com/ReviversMC/modget-manifests/v4-review/doc/validation-schemas/4.0/main-manifest.json",
+  "$id": "com.github.reviversmc.modget.manifests.schemas.spec5_0_alpha_2.publisher_manifest",
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "description": "A representation of a Modget main manifest following the v4 specification.",
+  "description": "A representation of a Modget publisher manifest following the v5.0-alpha.2 specification.",
   "type": "object",
   "properties": {
     "manifestSpecVersion": {
       "type": "string",
-      "default": "\"4.0\"",
-      "const": "4.0",
-      "pattern": "^([0-9]+\\.[0-9]+)$",
+      "default": "\"5.0-alpha.2\"",
+      "const": "5.0-alpha.2",
+      "pattern": "^(0|[1-9]\\d*)((\\.(0|[1-9]\\d*))*)?(?:-((?:0|[1-9]\\d*|\\d*[a-zA-Z-][0-9a-zA-Z-]*)(?:\\.(?:0|[1-9]\\d*|\\d*[a-zA-Z-][0-9a-zA-Z-]*))*))?(?:\\+([0-9a-zA-Z-]+(?:\\.[0-9a-zA-Z-]+)*))?$",
       "title": "Current manifest specification"
     },
     "publisher": {
@@ -65,13 +65,61 @@
       },
       "uniqueItems": true
     },
-    "name": {
-      "type": "string",
-      "description": "Name of the mod, see CurseForge/Modrinth or fabric.mod.json",
-      "examples": [
-        "Sodium",
-        "Not Enough Crashes"
-      ]
+    "loaders": {
+      "type": "array",
+      "description": "All mod loaders the package supports",
+      "items": {
+        "type": "string",
+        "enum": [
+          "fabric",
+          "forge",
+          "liteloader"
+        ]
+      },
+      "uniqueItems": true
+    },
+    "names": {
+      "type": "object",
+      "description": "Names of the mod",
+      "properties": {
+        "official": {
+          "type": "string",
+          "description": "Official name of the mod, see fabric.mod.json or CurseForge/Modrinth",
+          "examples": [
+            "Sodium",
+            "Not Enough Crashes"
+          ]
+        },
+        "others": {
+          "type": ["array", "null"],
+          "description": "Potentially differing Modrinth/CurseForge names, the mod's slugs on these platforms etc.",
+          "items": {
+            "type": "string",
+            "examples": [
+              "sodium-fabric"
+            ]
+          },
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "official",
+        "others"
+      ],
+      "additionalProperties": false
+    },
+    "alternativeNames": {
+      "type": ["array", "null"],
+      "description": "Potentially differing Modrinth/CurseForge names and their slugs etc.\nIf a name equals the modId, omit it!\nIf this leads to an empty list, set `alternativeNames` to `~` or `null`.",
+      "items": {
+        "type": "string",
+        "pattern": "^((?![A-Z]).)*$",
+        "examples": [
+          "sodium-fabric",
+          "fabric-discord-link"
+        ]
+      },
+      "uniqueItems": true
     },
     "description": {
       "type": ["string", "null"],
@@ -202,7 +250,8 @@
     "iconUrls",
     "status",
     "updatedAlternatives",
-    "name",
+    "loaders",
+    "names",
     "description",
     "authors",
     "home",
