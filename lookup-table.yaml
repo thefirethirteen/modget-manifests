@@ -1,16 +1,5 @@
 # yaml-language-server: $schema=./doc/validation-schemas/5.0-alpha.2/lookup-table.json
 
-- id: optifabric
-  alternativeNames:
-    - opti-fabric
-  tags:
-    - api
-    - library
-    - performance
-  packages:
-    - packageId: Chocohead.optifabric
-      loaders:
-        - fabric
 - id: fabriccrossdimtpfix
   alternativeNames:
     - fabric-cross-dimension-teleportation-fix
