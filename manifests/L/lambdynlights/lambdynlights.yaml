@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../../../doc/validation-schemas/4.0/lookup-table.json
+
+- id: lambdynlights
+  alternativeNames:
+    - lamb-dyn-lights
+    - lamb-dynamic-lights
+  tags:
+    - adventure
+    - utility
+    - decoration
+    - cosmetic
+    - optifine-alternative
+  packages:
+    - packageId: lambdynlights.LambdAurora
+      loaders:
+        - fabric
