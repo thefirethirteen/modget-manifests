@@ -1,18 +1,5 @@
 # yaml-language-server: $schema=./doc/validation-schemas/5.0-alpha.2/lookup-table.json
 
-- id: smoothboot
-  alternativeNames:
-    - smooth-boot
-  tags:
-    - utility
-    - miscellaneous
-    - api
-    - library
-  packages:
-    - packageId: UltimateBoomer.smoothboot
-      loaders:
-        - fabric
-        - forge
 - id: canvas
   alternativeNames:
     - canvas-renderer
