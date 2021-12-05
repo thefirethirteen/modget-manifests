@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=https://raw.github.com/ReviversMC/modget-manifests/v4-review/doc/validation-schemas/4.0/main-manifest.json
 
-manifestSpecVersion: "4.0"
+manifestSpecVersion: "5.0-alpha.1"
 publisher: Trikzon
 iconUrls:
   - https://media.forgecdn.net/avatars/thumbnails/281/901/64/64/637287072374869279.png

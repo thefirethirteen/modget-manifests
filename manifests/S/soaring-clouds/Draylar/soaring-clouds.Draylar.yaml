@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=../../../../doc/validation-schemas/4.0/main-manifest.json
 
-manifestSpecVersion: "4.0"
+manifestSpecVersion: "5.0-alpha.1"
 publisher: Draylar
 iconUrls:
   - https://media.forgecdn.net/avatars/thumbnails/280/121/64/64/637280265643426720.png

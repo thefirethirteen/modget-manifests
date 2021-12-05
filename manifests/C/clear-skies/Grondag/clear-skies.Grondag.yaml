@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=https://raw.github.com/ReviversMC/modget-manifests/v4-review/doc/validation-schemas/4.0/main-manifest.json
 
-manifestSpecVersion: "4.0"
+manifestSpecVersion: "5.0-alpha.1"
 publisher: Grondag
 iconUrls:
   - https://media.forgecdn.net/avatars/thumbnails/215/643/64/64/636998432658345950.png

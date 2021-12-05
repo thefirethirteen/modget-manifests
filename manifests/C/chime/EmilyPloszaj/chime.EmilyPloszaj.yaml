@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=../../../../doc/validation-schemas/4.0/main-manifest.json
 
-manifestSpecVersion: "4.0"
+manifestSpecVersion: "5.0-alpha.1"
 publisher: EmilyPloszaj
 iconUrls:
   - https://cdn.modrinth.com/data/ubxU84eR/icon.png

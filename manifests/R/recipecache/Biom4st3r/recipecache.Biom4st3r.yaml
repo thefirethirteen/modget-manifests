@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=../../../../doc/validation-schemas/4.0/main-manifest.json
 
-manifestSpecVersion: "4.0"
+manifestSpecVersion: "5.0-alpha.1"
 publisher: Biom4st3r
 iconUrls:
   - https://media.forgecdn.net/avatars/372/542/637543695507572259.png

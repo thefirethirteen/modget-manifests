@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=https://raw.github.com/ReviversMC/modget-manifests/v4-review/doc/validation-schemas/4.0/main-manifest.json
 
-manifestSpecVersion: "4.0"
+manifestSpecVersion: "5.0-alpha.1"
 publisher: soir20
 iconUrls:
   - https://cdn.modrinth.com/data/HFlxNpln/icon.png

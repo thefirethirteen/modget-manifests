@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=../../../../doc/validation-schemas/4.0/main-manifest.json
 
-manifestSpecVersion: "4.0"
+manifestSpecVersion: "5.0-alpha.1"
 publisher: Chocohead
 iconUrls:
   - https://media.forgecdn.net/avatars/thumbnails/204/621/64/64/636941511294490034.png
