@@ -1,19 +1,5 @@
 # yaml-language-server: $schema=./doc/validation-schemas/5.0-alpha.2/lookup-table.json
 
-- id: lambdabettergrass
-  alternativeNames:
-    - lambda-better-grass
-  tags:
-    - decoration
-    - cosmetic
-    - adventure
-    - rpg
-    - vanilla-plus
-    - optifine-alternative
-  packages:
-    - packageId: LambdAurora.lambdabettergrass
-      loaders:
-        - fabric
 - id: lambdynlights
   alternativeNames:
     - lamb-dyn-lights
