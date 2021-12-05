@@ -1,0 +1,12 @@
+# yaml-language-server: $schema=../../../doc/validation-schemas/4.0/lookup-table.json
+
+- id: varied-mobs
+  alternativeNames:
+    - varied-mob-textures
+  tags:
+    - mobs
+    - optifine-alternative
+  packages:
+    - packageId: varied-mobs.Digifox03
+      loaders:
+        - fabric

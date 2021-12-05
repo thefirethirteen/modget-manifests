@@ -1,15 +1,5 @@
 # yaml-language-server: $schema=./doc/validation-schemas/5.0-alpha.2/lookup-table.json
 
-- id: varied-mobs
-  alternativeNames:
-    - varied-mob-textures
-  tags:
-    - mobs
-    - optifine-alternative
-  packages:
-    - packageId: Digifox03.varied-mobs
-      loaders:
-        - fabric
 - id: soaring-clouds
   alternativeNames: ~
   tags:
