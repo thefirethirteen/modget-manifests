@@ -1,14 +1,5 @@
 # yaml-language-server: $schema=./doc/validation-schemas/5.0-alpha.2/lookup-table.json
 
-- id: fabrishot
-  alternativeNames: ~
-  tags:
-    - utility
-    - miscellaneous
-  packages:
-    - packageId: ramidzkh.fabrishot
-      loaders:
-        - fabric
 - id: modget
   alternativeNames: ~
   tags:
