@@ -1,0 +1,13 @@
+# yaml-language-server: $schema=../../../doc/validation-schemas/4.0/lookup-table.json
+
+- id: fabricsit
+  alternativeNames:
+    - fabric-sit
+  tags:
+    - utility
+    - miscellaneous
+    - cosmetic
+  packages:
+    - packageId: fabricsit.BradBot_1
+      loaders:
+        - fabric

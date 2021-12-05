@@ -1,16 +1,5 @@
 # yaml-language-server: $schema=./doc/validation-schemas/5.0-alpha.2/lookup-table.json
 
-- id: fabricsit
-  alternativeNames:
-    - fabric-sit
-  tags:
-    - utility
-    - miscellaneous
-    - cosmetic
-  packages:
-    - packageId: BradBot_1.fabricsit
-      loaders:
-        - fabric
 - id: hydrogen
   alternativeNames:
     - hydrogen-fabric
