@@ -1,16 +1,5 @@
 # yaml-language-server: $schema=./doc/validation-schemas/5.0-alpha.2/lookup-table.json
 
-- id: starlight
-  alternativeNames: ~
-  tags:
-    - miscellaneous
-    - performance
-    - optifine-alternative
-  packages:
-    - packageId: PaperMC.starlight
-      loaders:
-        - fabric
-        - forge
 - id: continuity
   alternativeNames: ~
   tags:
