@@ -1,16 +1,5 @@
 # yaml-language-server: $schema=./doc/validation-schemas/5.0-alpha.2/lookup-table.json
 
-- id: connected_block_textures
-  alternativeNames:
-    - cbt
-    - connected-block-textures
-  tags:
-    - cosmetic
-    - optifine-alternative
-  packages:
-    - packageId: NuclearFarts.connected_block_textures
-      loaders:
-        - fabric
 - id: starlight
   alternativeNames: ~
   tags:
