@@ -1,0 +1,10 @@
+# yaml-language-server: $schema=../../../doc/validation-schemas/4.0/lookup-table.json
+
+- id: modget
+  alternativeNames: ~
+  tags:
+    - utility
+  packages:
+    - packageId: modget.ReviversMC
+      loaders:
+        - fabric

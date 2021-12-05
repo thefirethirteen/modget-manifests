@@ -1,13 +1,5 @@
 # yaml-language-server: $schema=./doc/validation-schemas/5.0-alpha.2/lookup-table.json
 
-- id: modget
-  alternativeNames: ~
-  tags:
-    - utility
-  packages:
-    - packageId: ReviversMC.modget
-      loaders:
-        - fabric
 - id: autoconfig1u
   alternativeNames:
     - auto-config
