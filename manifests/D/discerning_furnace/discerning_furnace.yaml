@@ -1,0 +1,13 @@
+# yaml-language-server: $schema=../../../doc/validation-schemas/4.0/lookup-table.json
+
+- id: discerning_furnace
+  alternativeNames:
+    - discerning-furnace
+  tags:
+    - technology
+    - utility
+    - redstone
+  packages:
+    - packageId: discerning_furnace.supersaiyansubtlety
+      loaders:
+        - fabric
