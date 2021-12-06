@@ -1,14 +1,11 @@
-# yaml-language-server: $schema=../../../doc/validation-schemas/4.0/lookup-table.json
+# yaml-language-server: $schema=../../../doc/validation-schemas/5.0-alpha.2/modId-manifest.json
 
-- id: animatica
-  alternativeNames: ~
-  tags:
-    - utility
-    - decoration
-    - miscellaneous
-    - cosmetic
-    - optifine-alternative
-  packages:
-    - packageId: animatica.FoundationGames
-      loaders:
-        - fabric
+manifestSpecVersion: "5.0-alpha.2"
+tags:
+  - utility
+  - decoration
+  - miscellaneous
+  - cosmetic
+  - optifine-alternative
+packages:
+  - publisher: FoundationGames

@@ -1,13 +1,17 @@
-# yaml-language-server: $schema=../../../../doc/validation-schemas/4.0/main-manifest.json
+# yaml-language-server: $schema=../../../../doc/validation-schemas/5.0-alpha.2/publisher-manifest.json
 
-manifestSpecVersion: "5.0-alpha.1"
+manifestSpecVersion: "5.0-alpha.2"
 publisher: FoundationGames
 iconUrls:
   - https://cdn.modrinth.com/data/PRN43VSY/icon.png
   - https://media.forgecdn.net/avatars/thumbnails/439/740/64/64/637687343272147005.png
 status: active
 updatedAlternatives: ~
-name: Animatica
+loaders:
+  - fabric
+names:
+  official: Animatica
+  others: ~
 description: Allow for animating more game textures using the MCPatcher/OptiFine animation format
 authors:
   - name: FoundationGames
