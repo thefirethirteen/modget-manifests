@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=../../../../doc/validation-schemas/4.0/main-manifest.json
+# yaml-language-server: $schema=../../../../doc/validation-schemas/5.0-alpha.2/publisher-manifest.json
 
 manifestSpecVersion: "5.0-alpha.1"
 publisher: LogicalGeekBoy
