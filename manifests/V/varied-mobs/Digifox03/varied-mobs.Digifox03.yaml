@@ -1,12 +1,16 @@
 # yaml-language-server: $schema=../../../../doc/validation-schemas/5.0-alpha.2/publisher-manifest.json
 
-manifestSpecVersion: "5.0-alpha.1"
+manifestSpecVersion: "5.0-alpha.2"
+loaders:
+  - "fabric"
 publisher: Digifox03
 iconUrls:
   - https://media.forgecdn.net/avatars/thumbnails/290/612/64/64/637319307936816790.png
 status: unknown
 updatedAlternatives: ~
-name: Varied Mob Textures
+names:
+  official: Varied Mob Textures
+  others: ~
 description: allows resource packs to have randomly selected multiple textures for mobs
 authors:
   - name: Digifox03

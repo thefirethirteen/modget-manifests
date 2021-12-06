@@ -1,12 +1,8 @@
 # yaml-language-server: $schema=../../../doc/validation-schemas/5.0-alpha.2/modId-manifest.json
+manifestSpecVersion: "5.0-alpha.2"
 
-- id: varied-mobs
-  alternativeNames:
-    - varied-mob-textures
-  tags:
+tags:
     - mobs
     - optifine-alternative
-  packages:
-    - packageId: varied-mobs.Digifox03
-      loaders:
-        - fabric
+packages:
+  - publisher: Digifox03
