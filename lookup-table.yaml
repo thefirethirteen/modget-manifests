@@ -1,3 +1,109 @@
 # yaml-language-server: $schema=./doc/validation-schemas/5.0-alpha.2/lookup-table.json
 
+manifestSpecVersion: "5.0-alpha.2"
 
+mods:
+  - modId: animatica
+    oldModIds: ~
+  - modId: architectury
+    oldModIds: ~
+  - modId: autoconfig1u
+    oldModIds: ~
+  - modId: bettersleeping
+    oldModIds: ~
+  - modId: bfapi
+    oldModIds: ~
+  - modId: canvas
+    oldModIds: ~
+  - modId: chime
+    oldModIds: ~
+  - modId: citresewn
+    oldModIds: ~
+  - modId: clear-skies
+    oldModIds: ~
+  - modId: cloth-config2
+    oldModIds: ~
+  - modId: colormatic
+    oldModIds: ~
+  - modId: connected_block_textures
+    oldModIds: ~
+  - modId: continuity
+    oldModIds: ~
+  - modId: cullleaves
+    oldModIds: ~
+  - modId: customsplashscreen
+    oldModIds: ~
+  - modId: dark-loading-screen
+    oldModIds: ~
+  - modId: dashloader
+    oldModIds: ~
+  - modId: discerning_furnace
+    oldModIds: ~
+  - modId: dynamicfps
+    oldModIds: ~
+  - modId: fabric
+    oldModIds: ~
+  - modId: fabric-language-kotlin
+    oldModIds: ~
+  - modId: fabriccrossdimtpfix
+    oldModIds: ~
+  - modId: fabricsit
+    oldModIds: ~
+  - modId: fabricskyboxes
+    oldModIds: ~
+  - modId: fabrishot
+    oldModIds: ~
+  - modId: fabulousclouds
+    oldModIds: ~
+  - modId: fdlink
+    oldModIds: ~
+  - modId: ferritecore
+    oldModIds: ~
+  - modId: hydrogen
+    oldModIds: ~
+  - modId: krypton
+    oldModIds: ~
+  - modId: lambdabettergrass
+    oldModIds: ~
+  - modId: lambdynlights
+    oldModIds: ~
+  - modId: lazydfu
+    oldModIds: ~
+  - modId: lithium
+    oldModIds: ~
+  - modId: logical_zoom
+    oldModIds: ~
+  - modId: modget
+    oldModIds: ~
+  - modId: modmenu
+    oldModIds: ~
+  - modId: moremcmeta
+    oldModIds: ~
+  - modId: okzoomer
+    oldModIds: ~
+  - modId: optifabric
+    oldModIds: ~
+  - modId: phosphor
+    oldModIds: ~
+  - modId: raisedclouds
+    oldModIds: ~
+  - modId: recipecache
+    oldModIds: ~
+  - modId: resolutioncontrol
+    oldModIds: ~
+  - modId: smoothboot
+    oldModIds: ~
+  - modId: soaring-clouds
+    oldModIds: ~
+  - modId: sodium
+    oldModIds: ~
+  - modId: sodium-extra
+    oldModIds: ~
+  - modId: starlight
+    oldModIds: ~
+  - modId: terra
+    oldModIds: ~
+  - modId: transparent
+    oldModIds: ~
+  - modId: varied-mobs
+    oldModIds: ~
