@@ -1,44 +1,45 @@
 # yaml-language-server: $schema=../../../../../../doc/validation-schemas/5.0-alpha.2/version-manifest.json
-
-- loaders:
-    - fabric
-  minecraftVersions:
-    - "1.17.1"
-    - "1.17"
-  environment:
-    server: unsupported
-    client: required
-  channel: beta
-  depends: ~
-  bundles:
-    - packageId: frex.Grondag
-      version: "6.0.175"
-    - packageId: jankson.CottonMC
-      version: "3.0.1"
-    - packageId: cloth-config2.shedaniel
-      version: "5.0.34"
-    - packageId: json-model-extensions.Grondag
-      version: "1.22.218"
-  breaks:
-    - packageId: sodium.CaffeineMC
-      version: "*"
-    - packageId: retino.juliand665
-      version: "*"
-  conflicts: ~
-  recommends: ~
-  thirdPartyIds:
-    modrinth: "VOYxIjFI"
-    curseforge: "318440"
-  license: LGPL-3.0
-  fileType: jar
-  md5: 6fe7ac862246d82dc175e14631119823
-  downloadPageUrls:
-    modrinth: https://modrinth.com/mod/canvas/version/aVFFTT7P
-    curseforge: https://www.curseforge.com/minecraft/mc-mods/canvas-renderer/files/3533075
-    sourceControl: https://github.com/vram-guild/canvas/releases/tag/mc117-1.0.2207-unstable
-    others: ~
-  fileUrls:
-    modrinth: https://cdn.modrinth.com/data/VOYxIjFI/versions/fabric-mc117-1.0.2207/canvas-fabric-mc117-1.0.2207.jar
-    curseforge: https://www.curseforge.com/minecraft/mc-mods/canvas-renderer/download/3533075/file
-    sourceControl: https://github.com/vram-guild/canvas/releases/download/mc117-1.0.2207-unstable/canvas-fabric-mc117-1.0.2207.jar
-    others: ~
+manifestSpecVersion: "5.0-alpha.2"
+variants:
+  - loaders:
+      - fabric
+    minecraftVersions:
+      - "1.17.1"
+      - "1.17"
+    environment:
+      server: unsupported
+      client: required
+    channel: beta
+    depends: ~
+    bundles:
+      - packageId: frex.Grondag
+        version: "6.0.175"
+      - packageId: jankson.CottonMC
+        version: "3.0.1"
+      - packageId: cloth-config2.shedaniel
+        version: "5.0.34"
+      - packageId: json-model-extensions.Grondag
+        version: "1.22.218"
+    breaks:
+      - packageId: sodium.CaffeineMC
+        version: "*"
+      - packageId: retino.juliand665
+        version: "*"
+    conflicts: ~
+    recommends: ~
+    thirdPartyIds:
+      modrinth: "VOYxIjFI"
+      curseforge: "318440"
+    license: LGPL-3.0
+    fileType: jar
+    md5: 6fe7ac862246d82dc175e14631119823
+    downloadPageUrls:
+      modrinth: https://modrinth.com/mod/canvas/version/aVFFTT7P
+      curseforge: https://www.curseforge.com/minecraft/mc-mods/canvas-renderer/files/3533075
+      sourceControl: https://github.com/vram-guild/canvas/releases/tag/mc117-1.0.2207-unstable
+      others: ~
+    fileUrls:
+      modrinth: https://cdn.modrinth.com/data/VOYxIjFI/versions/fabric-mc117-1.0.2207/canvas-fabric-mc117-1.0.2207.jar
+      curseforge: https://www.curseforge.com/minecraft/mc-mods/canvas-renderer/download/3533075/file
+      sourceControl: https://github.com/vram-guild/canvas/releases/download/mc117-1.0.2207-unstable/canvas-fabric-mc117-1.0.2207.jar
+      others: ~

@@ -1,16 +1,11 @@
 # yaml-language-server: $schema=../../../doc/validation-schemas/5.0-alpha.2/modId-manifest.json
-
-- id: canvas
-  alternativeNames:
-    - canvas-renderer
-  tags:
-    - utility
-    - library
-    - miscellaneous
-    - api
-    - cosmetic
-    - optifine-alternative
-  packages:
-    - packageId: canvas.vram-guild
-      loaders:
-        - fabric
+manifestSpecVersion: "5.0-alpha.2"
+tags:
+  - utility
+  - library
+  - miscellaneous
+  - api
+  - cosmetic
+  - optifine-alternative
+packages:
+  - publisher: vram-guild
