@@ -1,13 +1,17 @@
 # yaml-language-server: $schema=../../../../doc/validation-schemas/5.0-alpha.2/publisher-manifest.json
 
-manifestSpecVersion: "5.0-alpha.1"
+manifestSpecVersion: "5.0-alpha.2"
 publisher: EmilyPloszaj
+loaders:
+  - "fabric"
 iconUrls:
   - https://cdn.modrinth.com/data/ubxU84eR/icon.png
   - https://media.forgecdn.net/avatars/thumbnails/327/949/64/64/637451141240781958.png
 status: active
 updatedAlternatives: ~
-name: Chime
+names:
+  official: Chime
+  others: ~
 description: Adds more capabilities to item models
 authors:
   - name: Emi
