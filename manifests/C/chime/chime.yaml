@@ -1,14 +1,10 @@
 # yaml-language-server: $schema=../../../doc/validation-schemas/5.0-alpha.2/modId-manifest.json
-
-- id: chime
-  alternativeNames: ~
-  tags:
-    - library
-    - api
-    - utility
-    - miscellaneous
-    - optifine-alternative
-  packages:
-    - packageId: chime.EmilyPloszaj
-      loaders:
-        - fabric
+manifestSpecVersion: "5.0-alpha.2"
+tags:
+  - library
+  - api
+  - utility
+  - miscellaneous
+  - optifine-alternative
+packages:
+  - publisher: EmilyPloszaj
