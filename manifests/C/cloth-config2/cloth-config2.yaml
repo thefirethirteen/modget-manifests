@@ -1,13 +1,8 @@
 # yaml-language-server: $schema=../../../doc/validation-schemas/5.0-alpha.2/modId-manifest.json
 
-- id: cloth-config2
-  alternativeNames:
-    - cloth-config
-  tags:
-    - library
-    - api
-  packages:
-    - packageId: cloth-config2.shedaniel
-      loaders:
-        - fabric
-        - forge
+manifestSpecVersion: "5.0-alpha.2"
+tags:
+  - library
+  - api
+packages:
+  - publisher: shedaniel

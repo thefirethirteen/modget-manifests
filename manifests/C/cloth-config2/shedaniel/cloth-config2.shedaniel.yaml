@@ -1,12 +1,17 @@
 # yaml-language-server: $schema=../../../../doc/validation-schemas/5.0-alpha.2/publisher-manifest.json
 
-manifestSpecVersion: "5.0-alpha.1"
+manifestSpecVersion: "5.0-alpha.2"
 publisher: shedaniel
+loaders:
+  - "fabric"
+  - "forge"
 iconUrls:
   - https://media.forgecdn.net/avatars/thumbnails/282/468/64/64/637289313152268031.png
 status: active
 updatedAlternatives: ~
-name: Cloth Config v5
+names:
+  official: Cloth Config v5
+  others: ~
 description: An API for config screens.
 authors:
   - name: shedaniel
