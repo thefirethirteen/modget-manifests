@@ -1,13 +1,8 @@
 # yaml-language-server: $schema=../../../doc/validation-schemas/5.0-alpha.2/modId-manifest.json
-
-- id: bfapi
-  alternativeNames:
-    - brads-fabric-api
-  tags:
-    - library
-    - miscellaneous
-    - api
-  packages:
-    - packageId: bfapi.BradBot_1
-      loaders:
-        - fabric
+manifestSpecVersion: "5.0-alpha.2"
+tags:
+  - library
+  - miscellaneous
+  - api
+packages:
+  - publisher: BradBot_1
