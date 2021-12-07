@@ -1,13 +1,17 @@
 # yaml-language-server: $schema=../../../../doc/validation-schemas/5.0-alpha.2/publisher-manifest.json
 
-manifestSpecVersion: "5.0-alpha.1"
+manifestSpecVersion: "5.0-alpha.2"
 publisher: SHsuperCM
+loaders:
+  - "fabric"
 iconUrls:
   - https://cdn.modrinth.com/data/otVJckYQ/icon.png
   - https://media.forgecdn.net/avatars/thumbnails/426/701/64/64/637657532550330185.png
 status: active
 updatedAlternatives: ~
-name: CITResewn
+names:
+  official: CITResewn
+  others: ~
 description: Re-implements MCPatcher's CIT
 authors:
   - name: SHsuperCM

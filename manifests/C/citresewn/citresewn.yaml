@@ -1,14 +1,10 @@
 # yaml-language-server: $schema=../../../doc/validation-schemas/5.0-alpha.2/modId-manifest.json
-
-- id: citresewn
-  alternativeNames: ~
-  tags:
-    - map
-    - information
-    - miscellaneous
-    - utility
-    - optifine-alternative
-  packages:
-    - packageId: citresewn.SHsuperCM
-      loaders:
-        - fabric
+manifestSpecVersion: "5.0-alpha.2"
+tags:
+  - map
+  - information
+  - miscellaneous
+  - utility
+  - optifine-alternative
+packages:
+  - publisher: SHsuperCM
