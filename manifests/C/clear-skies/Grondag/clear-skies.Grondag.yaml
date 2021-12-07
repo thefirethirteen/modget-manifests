@@ -1,12 +1,16 @@
-# yaml-language-server: $schema=https://raw.github.com/ReviversMC/modget-manifests/v4-review/doc/validation-schemas/4.0/main-manifest.json
+# yaml-language-server: $schema=../../../../doc/validation-schemas/5.0-alpha.2/publisher-manifest.json
 
-manifestSpecVersion: "5.0-alpha.1"
+manifestSpecVersion: "5.0-alpha.2"
 publisher: Grondag
+loaders:
+  - "fabric"
 iconUrls:
   - https://media.forgecdn.net/avatars/thumbnails/215/643/64/64/636998432658345950.png
 status: active
 updatedAlternatives: ~
-name: Clear Skies
+names:
+  official: Clear Skies
+  others: ~
 description: Makes horizon and fog colors match the sky
 authors:
   - name: Grondag

@@ -1,10 +1,6 @@
 # yaml-language-server: $schema=../../../doc/validation-schemas/5.0-alpha.2/modId-manifest.json
-
-- id: clear-skies
-  alternativeNames: ~
-  tags:
-    - cosmetic
-  packages:
-    - packageId: clear-skies.Grondag
-      loaders:
-        - fabric
+manifestSpecVersion: "5.0-alpha.2"
+tags:
+  - cosmetic
+packages:
+  - publisher: Grondag
