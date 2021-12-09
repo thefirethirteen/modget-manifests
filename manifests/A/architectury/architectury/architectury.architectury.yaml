@@ -1,13 +1,18 @@
 # yaml-language-server: $schema=../../../../doc/validation-schemas/5.0-alpha.2/publisher-manifest.json
 
-manifestSpecVersion: "5.0-alpha.1"
+manifestSpecVersion: "5.0-alpha.2"
 publisher: architectury
 iconUrls:
   - https://media.forgecdn.net/avatars/313/418/637408811210745557.png
   - https://raw.githubusercontent.com/architectury/architectury-api/1.17/fabric/src/main/resources/icon.png
 status: active
 updatedAlternatives: ~
-name: Architectury
+loaders:
+  - fabric
+names:
+  official: Architectury
+  others:
+    - architectury-api
 description: A intermediary api aimed to ease developing multiplatform mods.
 authors:
   - name: shedaniel

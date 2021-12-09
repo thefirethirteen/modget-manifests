@@ -1,12 +1,8 @@
 # yaml-language-server: $schema=../../../doc/validation-schemas/5.0-alpha.2/modId-manifest.json
 
-- id: architectury
-  alternativeNames:
-    - architectury-api
-  tags:
-    - api
-    - library
-  packages:
-    - packageId: architectury.architectury
-      loaders:
-        - fabric
+manifestSpecVersion: "5.0-alpha.2"
+tags:
+  - api
+  - library
+packages:
+  - publisher: architectury
