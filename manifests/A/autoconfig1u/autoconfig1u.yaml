@@ -1,13 +1,8 @@
 # yaml-language-server: $schema=../../../doc/validation-schemas/5.0-alpha.2/modId-manifest.json
 
-- id: autoconfig1u
-  alternativeNames:
-    - auto-config
-    - auto-config-api
-  tags:
-    - library
-    - api
-  packages:
-    - packageId: autoconfig1u.shedaniel
-      loaders:
-        - fabric
+manifestSpecVersion: "5.0-alpha.2"
+tags:
+  - library
+  - api
+packages:
+  - publisher: shedaniel
