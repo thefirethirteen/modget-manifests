@@ -1,12 +1,9 @@
 # yaml-language-server: $schema=../../../doc/validation-schemas/5.0-alpha.2/modId-manifest.json
 
-- id: colormatic
-  alternativeNames: ~
-  tags:
-    - cosmetic
-    - decoration
-    - utility
-  packages:
-    - packageId: colormatic.kvverti
-      loaders:
-        - fabric
+manifestSpecVersion: "5.0-alpha.2"
+tags:
+  - cosmetic
+  - decoration
+  - utility
+packages:
+  - publisher: kvverti

@@ -1,13 +1,17 @@
 # yaml-language-server: $schema=../../../../doc/validation-schemas/5.0-alpha.2/publisher-manifest.json
 
-manifestSpecVersion: "5.0-alpha.1"
+manifestSpecVersion: "5.0-alpha.2"
 publisher: kvverti
 iconUrls:
   - https://cdn.modrinth.com//data/V4IQxkZC/icon.png
   - https://media.forgecdn.net/avatars/thumbnails/207/705/64/64/636968572781427653.png
 status: active
 updatedAlternatives: ~
-name: Colormatic
+loaders:
+  - fabric
+names:
+  official: Colormatic
+  others: ~
 description: Adds the ability to customize colors hardcoded in vanilla.
 authors:
   - name: kvverti
