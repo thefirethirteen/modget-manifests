@@ -1,12 +1,9 @@
 # yaml-language-server: $schema=../../../doc/validation-schemas/5.0-alpha.2/modId-manifest.json
 
-- id: cullleaves
-  alternativeNames: ~
-  tags:
-    - miscellaneous
-    - cosmetic
-    - optifine-alternative
-  packages:
-    - packageId: cullleaves.TeamMidnightDust
-      loaders:
-        - fabric
+manifestSpecVersion: "5.0-alpha.2"
+tags:
+  - miscellaneous
+  - cosmetic
+  - optifine-alternative
+packages:
+  - publisher: TeamMidnightDust

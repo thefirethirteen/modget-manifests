@@ -1,39 +1,41 @@
 # yaml-language-server: $schema=../../../../../../doc/validation-schemas/5.0-alpha.2/version-manifest.json
 
-- loaders:
-    - fabric
-  minecraftVersions:
-    - "1.16.5"
-    - "1.16.4"
-    - "1.16.3"
-    - "1.16.2"
-    - "1.16.1"
-  environment:
-    server: unsupported
-    client: required
-  channel: release
-  depends:
-    - packageId: fabric.FabricMC
-      version: "*"
-  bundles: ~
-  breaks: ~
-  conflicts: ~
-  recommends:
-    - packageId: modmenu.TerraformersMC
-      version: "*"
-  thirdPartyIds:
-    modrinth: "GNxdLCoP"
-    curseforge: "423254"
-  license: MIT
-  fileType: jar
-  md5: 6946bbaf5dc459404762fd6258752850
-  downloadPageUrls:
-    modrinth: https://modrinth.com/mod/cull-leaves/version/NfeMW5mF
-    curseforge: https://www.curseforge.com/minecraft/mc-mods/cull-leaves/files/3223126
-    sourceControl: https://github.com/TeamMidnightDust/CullLeaves/releases/tag/v2.1.0
-    others: ~
-  fileUrls:
-    modrinth: https://cdn.modrinth.com/data/GNxdLCoP/versions/2.1.0/cullleaves-2.1.0.jar
-    curseforge: https://www.curseforge.com/minecraft/mc-mods/cull-leaves/download/3223126/file
-    sourceControl: https://github.com/TeamMidnightDust/CullLeaves/releases/download/v2.1.0/cullleaves-2.1.0.jar
-    others: ~
+manifestSpecVersion: "5.0-alpha.2"
+variants:
+  - loaders:
+      - fabric
+    minecraftVersions:
+      - "1.16.5"
+      - "1.16.4"
+      - "1.16.3"
+      - "1.16.2"
+      - "1.16.1"
+    environment:
+      server: unsupported
+      client: required
+    channel: release
+    depends:
+      - packageId: fabric.FabricMC
+        version: "*"
+    bundles: ~
+    breaks: ~
+    conflicts: ~
+    recommends:
+      - packageId: modmenu.TerraformersMC
+        version: "*"
+    thirdPartyIds:
+      modrinth: "GNxdLCoP"
+      curseforge: "423254"
+    license: MIT
+    fileType: jar
+    md5: 6946bbaf5dc459404762fd6258752850
+    downloadPageUrls:
+      modrinth: https://modrinth.com/mod/cull-leaves/version/NfeMW5mF
+      curseforge: https://www.curseforge.com/minecraft/mc-mods/cull-leaves/files/3223126
+      sourceControl: https://github.com/TeamMidnightDust/CullLeaves/releases/tag/v2.1.0
+      others: ~
+    fileUrls:
+      modrinth: https://cdn.modrinth.com/data/GNxdLCoP/versions/2.1.0/cullleaves-2.1.0.jar
+      curseforge: https://www.curseforge.com/minecraft/mc-mods/cull-leaves/download/3223126/file
+      sourceControl: https://github.com/TeamMidnightDust/CullLeaves/releases/download/v2.1.0/cullleaves-2.1.0.jar
+      others: ~

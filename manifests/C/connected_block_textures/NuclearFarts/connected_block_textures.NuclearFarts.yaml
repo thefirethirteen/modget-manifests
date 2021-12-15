@@ -1,13 +1,17 @@
 # yaml-language-server: $schema=../../../../doc/validation-schemas/5.0-alpha.2/publisher-manifest.json
 
-manifestSpecVersion: "5.0-alpha.1"
+manifestSpecVersion: "5.0-alpha.2"
+loaders:
+  - "fabric"
 publisher: NuclearFarts
 iconUrls:
   - https://media.forgecdn.net/avatars/thumbnails/270/673/64/64/637245862944212312.png
 status: eol
 updatedAlternatives:
   - packageId: PepperCode1.continuity
-name: Connected Block Textures
+names:
+  official: Connected Block Textures
+  others: ~
 description: Support for MCPatcher/Optifine-format connected textures.
 authors:
   - name: NuclearFarts

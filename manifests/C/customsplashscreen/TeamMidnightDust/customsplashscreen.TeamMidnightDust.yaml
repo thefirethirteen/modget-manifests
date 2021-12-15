@@ -1,13 +1,17 @@
 # yaml-language-server: $schema=../../../../doc/validation-schemas/5.0-alpha.2/publisher-manifest.json
 
-manifestSpecVersion: "5.0-alpha.1"
+manifestSpecVersion: "5.0-alpha.2"
+loaders:
+  - "fabric"
 publisher: TeamMidnightDust
 iconUrls:
   - https://cdn.modrinth.com/data/BwFQLeCh/icon.png
   - https://media.forgecdn.net/avatars/thumbnails/334/155/64/64/637467678574554891.png
 status: active
 updatedAlternatives: ~
-name: Custom Splash Screen
+names:
+  official: Custom Splash Screen
+  others: ~
 description: Change minecraft's loading screen to your liking! Completely configurable!
 authors:
   - name: Motschen

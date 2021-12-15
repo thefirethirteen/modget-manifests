@@ -1,15 +1,11 @@
 # yaml-language-server: $schema=../../../doc/validation-schemas/5.0-alpha.2/modId-manifest.json
 
-- id: customsplashscreen
-  alternativeNames:
-    - custom-splash-screen
-  tags:
-    - utility
-    - decoration
-    - miscellaneous
-    - cosmetic
-    - optifine-alternative
-  packages:
-    - packageId: customsplashscreen.TeamMidnightDust
-      loaders:
-        - fabric
+manifestSpecVersion: "5.0-alpha.2"
+tags:
+  - utility
+  - decoration
+  - miscellaneous
+  - cosmetic
+  - optifine-alternative
+packages:
+  - publisher: TeamMidnightDust

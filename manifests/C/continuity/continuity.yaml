@@ -1,16 +1,13 @@
 # yaml-language-server: $schema=../../../doc/validation-schemas/5.0-alpha.2/modId-manifest.json
 
-- id: continuity
-  alternativeNames: ~
-  tags:
-    - utility
-    - decoration
-    - miscellaneous
-    - cosmetic
-    - library
-    - api
-    - optifine-alternative
-  packages:
-    - packageId: continuity.PepperCode1
-      loaders:
-        - fabric
+manifestSpecVersion: "5.0-alpha.2"
+tags:
+  - utility
+  - decoration
+  - miscellaneous
+  - cosmetic
+  - library
+  - api
+  - optifine-alternative
+packages:
+  - publisher: PepperCode1

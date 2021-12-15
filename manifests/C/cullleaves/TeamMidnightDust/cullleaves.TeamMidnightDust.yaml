@@ -1,13 +1,17 @@
 # yaml-language-server: $schema=../../../../doc/validation-schemas/5.0-alpha.2/publisher-manifest.json
 
-manifestSpecVersion: "5.0-alpha.1"
+manifestSpecVersion: "5.0-alpha.2"
+loaders:
+  - "fabric"
 publisher: TeamMidnightDust
 iconUrls:
   - https://cdn.modrinth.com/data/GNxdLCoP/icon.png
   - https://media.forgecdn.net/avatars/thumbnails/317/425/64/64/637421841207570214.png
 status: active
 updatedAlternatives: ~
-name: Cull Leaves
+names:
+  official: Cull Leaves
+  others: ~
 description: Adds culling to leaf blocks, providing a huge performance boost over vanilla.
 authors:
   - name: Motschen
