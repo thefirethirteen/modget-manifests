@@ -1,13 +1,18 @@
 # yaml-language-server: $schema=../../../../doc/validation-schemas/5.0-alpha.2/publisher-manifest.json
 
-manifestSpecVersion: "5.0-alpha.1"
+manifestSpecVersion: "5.0-alpha.2"
 publisher: dfsek
 iconUrls:
   - https://cdn.modrinth.com/data/FIlZB9L0/icon.png
   - https://raw.githubusercontent.com/PolyhedralDev/Terra/ver/6.0.0/platforms/fabric/src/main/resources/assets/terra/icon.png
 status: active
 updatedAlternatives: ~
-name: Terra
+loaders:
+  - fabric
+names:
+  official: Terra
+  others:
+    - terra
 description: A fast, modern, extensible, platform-agnostic data-driven world generator
 authors:
   - name: dfsek
