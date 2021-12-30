@@ -1,11 +1,15 @@
 # yaml-language-server: $schema=../../../../doc/validation-schemas/5.0-alpha.2/publisher-manifest.json
 
-manifestSpecVersion: "5.0-alpha.1"
+manifestSpecVersion: "5.0-alpha.2"
+loaders:
+  - fabric
 publisher: CodedSakura
 iconUrls: ~
 status: active
 updatedAlternatives: ~
-name: FabricCrossDimTPFix
+names:
+  official: FabricCrossDimTPFix
+  others: ~
 description: Fixes a bug where the player doesn't get sent their XP and Potion effects on cross dim teleport.
 authors:
   - name: CodedSakura
