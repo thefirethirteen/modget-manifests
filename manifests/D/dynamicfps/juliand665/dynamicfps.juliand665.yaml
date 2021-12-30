@@ -1,6 +1,8 @@
 # yaml-language-server: $schema=../../../../doc/validation-schemas/5.0-alpha.2/publisher-manifest.json
 
-manifestSpecVersion: "5.0-alpha.1"
+manifestSpecVersion: "5.0-alpha.2"
+loaders:
+  - fabric
 publisher: juliand665
 iconUrls:
   - https://cdn.modrinth.com/data/LQ3K71Q1/icon.png
@@ -8,7 +10,9 @@ iconUrls:
   - https://github.com/juliand665/Dynamic-FPS/raw/main/GitHub/logo.png
 status: active
 updatedAlternatives: ~
-name: Dynamic FPS
+names:
+  official: Dynamic FPS
+  others: ~
 description: Dynamically adjusts FPS so minecraft doesn't hog resources in background.
 authors:
   - name: juliand665

@@ -1,12 +1,8 @@
 # yaml-language-server: $schema=../../../doc/validation-schemas/5.0-alpha.2/modId-manifest.json
 
-- id: dynamicfps
-  alternativeNames:
-    - dynamic-fps
-  tags:
-    - utility
-    - miscellaneous
-  packages:
-    - packageId: dynamicfps.juliand665
-      loaders:
-        - fabric
+manifestSpecVersion: "5.0-alpha.2"
+tags:
+  - utility
+  - miscellaneous
+packages:
+  - publisher: juliand665
