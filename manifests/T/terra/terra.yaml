@@ -1,15 +1,12 @@
 # yaml-language-server: $schema=../../../doc/validation-schemas/5.0-alpha.2/modId-manifest.json
 
-- id: terra
-  alternativeNames: ~
-  tags:
+manifestSpecVersion: "5.0-alpha.2"
+tags:
     - adventure
     - utility
     - worldgen
     - biomes
     - dimensions
     - structures
-  packages:
-    - packageId: terra.dfsek
-      loaders:
-        - fabric
+packages:
+    - publisher: dfsek
