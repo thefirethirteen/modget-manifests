@@ -1,12 +1,9 @@
 # yaml-language-server: $schema=../../../doc/validation-schemas/5.0-alpha.2/modId-manifest.json
 
-- id: dark-loading-screen
-  alternativeNames: ~
-  tags:
-    - vanilla-plus
-    - cosmetic
-    - optifine-alternative
-  packages:
-    - packageId: dark-loading-screen.Neecko5b84
-      loaders:
-        - fabric
+manifestSpecVersion: "5.0-alpha.2"
+tags:
+  - vanilla-plus
+  - cosmetic
+  - optifine-alternative
+packages:
+  - publisher: Neecko5b84
