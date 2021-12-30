@@ -1,6 +1,8 @@
 # yaml-language-server: $schema=../../../../doc/validation-schemas/5.0-alpha.2/publisher-manifest.json
 
-manifestSpecVersion: "5.0-alpha.1"
+manifestSpecVersion: "5.0-alpha.2"
+loaders:
+  - fabric
 publisher: FabricMC
 iconUrls:
   - https://cdn.modrinth.com/data/Ha28R6CL/icon.png
@@ -8,7 +10,9 @@ iconUrls:
   - https://raw.githubusercontent.com/FabricMC/fabric-language-kotlin/master/src/main/resources/assets/fabric-language-kotlin/icon512.png
 status: active
 updatedAlternatives: ~
-name: Fabric Language Kotlin
+names:
+  official: Fabric Language Kotlin
+  others: ~
 description: Fabric language module for Kotlin.
 authors:
   - name: Nikky
