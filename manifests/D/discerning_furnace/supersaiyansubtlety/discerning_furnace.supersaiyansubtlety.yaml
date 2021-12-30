@@ -1,6 +1,8 @@
 # yaml-language-server: $schema=../../../../doc/validation-schemas/5.0-alpha.2/publisher-manifest.json
 
-manifestSpecVersion: "5.0-alpha.1"
+manifestSpecVersion: "5.0-alpha.2"
+loaders:
+  - fabric
 publisher: supersaiyansubtlety
 iconUrls:
   - https://cdn.modrinth.com/data/G3Nz6HN4/icon.png
@@ -8,7 +10,9 @@ iconUrls:
   - https://gitlab.com/supersaiyansubtlety/discerning_furnace/-/raw/master/src/main/resources/assets/discerning_furnace/discerning_furnace_icon.png
 status: active
 updatedAlternatives: ~
-name: Discerning Furnace
+names:
+  official: Discerning Furnace
+  others: ~
 description: Only smeltable items are allowed in furnaces.
 authors:
   - name: supersaiyansubtlety

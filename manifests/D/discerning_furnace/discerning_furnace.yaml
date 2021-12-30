@@ -1,13 +1,9 @@
 # yaml-language-server: $schema=../../../doc/validation-schemas/5.0-alpha.2/modId-manifest.json
 
-- id: discerning_furnace
-  alternativeNames:
-    - discerning-furnace
-  tags:
-    - technology
-    - utility
-    - redstone
-  packages:
-    - packageId: discerning_furnace.supersaiyansubtlety
-      loaders:
-        - fabric
+manifestSpecVersion: "5.0-alpha.2"
+tags:
+  - technology
+  - utility
+  - redstone
+packages:
+  - publisher: supersaiyansubtlety
