@@ -1,13 +1,17 @@
 # yaml-language-server: $schema=../../../../doc/validation-schemas/5.0-alpha.2/publisher-manifest.json
 
-manifestSpecVersion: "5.0-alpha.1"
+manifestSpecVersion: "5.0-alpha.2"
+loaders:
+  - fabric
 publisher: AMereBagatelle
 iconUrls:
   - https://cdn.modrinth.com/data/YBz7DOs8/icon.png
   - https://media.forgecdn.net/avatars/thumbnails/300/360/64/64/637357278762496871.png
 status: active
 updatedAlternatives: ~
-name: Fabric Skyboxes
+names:
+  official: Fabric Skyboxes
+  others: ~
 description: Adds custom skybox support to MC
 authors:
   - name: AMereBagatelle

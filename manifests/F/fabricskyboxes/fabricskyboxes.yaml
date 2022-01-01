@@ -1,14 +1,10 @@
 # yaml-language-server: $schema=../../../doc/validation-schemas/5.0-alpha.2/modId-manifest.json
 
-- id: fabricskyboxes
-  alternativeNames:
-    - fabric-skyboxes
-  tags:
-    - cosmetic
-    - utility
-    - miscellaneous
-    - optifine-alternative
-  packages:
-    - packageId: fabricskyboxes.AMereBagatelle
-      loaders:
-        - fabric
+manifestSpecVersion: "5.0-alpha.2"
+tags:
+  - cosmetic
+  - utility
+  - miscellaneous
+  - optifine-alternative
+packages:
+  - publisher: AMereBagatelle

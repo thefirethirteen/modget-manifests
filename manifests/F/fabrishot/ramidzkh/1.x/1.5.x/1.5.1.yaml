@@ -1,40 +1,40 @@
 # yaml-language-server: $schema=../../../../../../doc/validation-schemas/5.0-alpha.2/version-manifest.json
 
-
-
-- loaders:
-    - fabric
-  minecraftVersions:
-    - "1.17.1"
-    - "1.17"
-  environment:
-    server: unsupported
-    client: required
-  channel: release
-  depends:
-    - packageId: fabric.FabricMC
-      version: "*"
-  bundles: ~
-  breaks: ~
-  conflicts: ~
-  recommends:
-    - packageId: modmenu.TerraformersMC
-      version: ">2.0.0"
-    - packageId: cloth-config2.shedaniel
-      version: ">5.0.0"
-  thirdPartyIds:
-    modrinth: "3qsfQtE9"
-    curseforge: "404870"
-  license: MIT
-  fileType: jar
-  md5: 886b65eeed5a912068665b406fc84a5b
-  downloadPageUrls:
-    modrinth: https://modrinth.com/mod/fabrishot/version/vjCZL5og
-    curseforge: https://www.curseforge.com/minecraft/mc-mods/fabrishot/files/3381995
-    sourceControl: ~
-    others: ~
-  fileUrls:
-    modrinth: https://cdn.modrinth.com/data/3qsfQtE9/versions/1.5.1/fabrishot-1.5.1.jar
-    curseforge: https://www.curseforge.com/minecraft/mc-mods/fabrishot/download/3381995/file
-    sourceControl: ~
-    others: ~
+manifestSpecVersion: "5.0-alpha.2"
+variants:
+  - loaders:
+      - fabric
+    minecraftVersions:
+      - "1.17.1"
+      - "1.17"
+    environment:
+      server: unsupported
+      client: required
+    channel: release
+    depends:
+      - packageId: fabric.FabricMC
+        version: "*"
+    bundles: ~
+    breaks: ~
+    conflicts: ~
+    recommends:
+      - packageId: modmenu.TerraformersMC
+        version: ">2.0.0"
+      - packageId: cloth-config2.shedaniel
+        version: ">5.0.0"
+    thirdPartyIds:
+      modrinth: "3qsfQtE9"
+      curseforge: "404870"
+    license: MIT
+    fileType: jar
+    md5: 886b65eeed5a912068665b406fc84a5b
+    downloadPageUrls:
+      modrinth: https://modrinth.com/mod/fabrishot/version/vjCZL5og
+      curseforge: https://www.curseforge.com/minecraft/mc-mods/fabrishot/files/3381995
+      sourceControl: ~
+      others: ~
+    fileUrls:
+      modrinth: https://cdn.modrinth.com/data/3qsfQtE9/versions/1.5.1/fabrishot-1.5.1.jar
+      curseforge: https://www.curseforge.com/minecraft/mc-mods/fabrishot/download/3381995/file
+      sourceControl: ~
+      others: ~

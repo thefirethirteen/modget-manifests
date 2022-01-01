@@ -1,13 +1,17 @@
 # yaml-language-server: $schema=../../../../doc/validation-schemas/5.0-alpha.2/publisher-manifest.json
 
-manifestSpecVersion: "5.0-alpha.1"
+manifestSpecVersion: "5.0-alpha.2"
+loaders:
+  - fabric
 publisher: BradBot_1
 iconUrls:
   - https://cdn.modrinth.com/data/eM1KzRjc/icon.png
   - https://media.forgecdn.net/avatars/381/826/637565349034791510.png
 status: active
 updatedAlternatives: ~
-name: FabricSit
+names:
+  official: FabricSit
+  others: ~
 description: A serverside mod to allows players to sit on stairs and slabs
 authors:
   - name: BradBot_1

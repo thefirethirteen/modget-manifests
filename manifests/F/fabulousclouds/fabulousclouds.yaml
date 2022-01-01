@@ -1,13 +1,9 @@
 # yaml-language-server: $schema=../../../doc/validation-schemas/5.0-alpha.2/modId-manifest.json
 
-- id: fabulousclouds
-  alternativeNames:
-    - fabulous-clouds
-  tags:
-    - cosmetic
-    - miscellaneous
-    - optifine-alternative
-  packages:
-    - packageId: fabulousclouds.misterslime
-      loaders:
-        - fabric
+manifestSpecVersion: "5.0-alpha.2"
+tags:
+  - cosmetic
+  - miscellaneous
+  - optifine-alternative
+packages:
+  - publisher: misterslime

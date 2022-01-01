@@ -1,6 +1,8 @@
 # yaml-language-server: $schema=../../../../doc/validation-schemas/5.0-alpha.2/publisher-manifest.json
 
-manifestSpecVersion: "5.0-alpha.1"
+manifestSpecVersion: "5.0-alpha.2"
+loaders:
+  - fabric
 publisher: misterslime
 iconUrls:
   - https://cdn.modrinth.com/data/Dx7R69WU/icon.png
@@ -8,7 +10,9 @@ iconUrls:
   - https://camo.githubusercontent.com/3635d49c19529b1ace54906ff534a5496ce1b91443da3668328eb599f1bc45dd/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f3837303430303231393532353833323739352f3838303136313431353633323135303535382f69636f6e2e706e67
 status: active
 updatedAlternatives: ~
-name: Fabulous Clouds
+names:
+  official: Fabulous Clouds
+  others: ~
 description: This mod makes the clouds look much better.
 authors:
   - name: misterslime

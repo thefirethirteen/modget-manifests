@@ -1,13 +1,9 @@
 # yaml-language-server: $schema=../../../doc/validation-schemas/5.0-alpha.2/modId-manifest.json
 
-- id: fdlink
-  alternativeNames:
-    - fabric-discord-link
-  tags:
-    - utility
-    - miscellaneous
-    - information
-  packages:
-    - packageId: fdlink.CatCore
-      loaders:
-        - fabric
+manifestSpecVersion: "5.0-alpha.2"
+tags:
+  - utility
+  - miscellaneous
+  - information
+packages:
+  - publisher: CatCore

@@ -1,14 +1,9 @@
 # yaml-language-server: $schema=../../../doc/validation-schemas/5.0-alpha.2/modId-manifest.json
 
-- id: ferritecore
-  alternativeNames:
-    - ferrite-core
-  tags:
-    - utility
-    - miscellaneous
-    - performance
-  packages:
-    - packageId: ferritecore.malte0811
-      loaders:
-        - fabric
-        - forge
+manifestSpecVersion: "5.0-alpha.2"
+tags:
+  - utility
+  - miscellaneous
+  - performance
+packages:
+  - publisher: malte0811

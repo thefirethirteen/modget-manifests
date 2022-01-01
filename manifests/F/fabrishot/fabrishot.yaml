@@ -1,11 +1,8 @@
 # yaml-language-server: $schema=../../../doc/validation-schemas/5.0-alpha.2/modId-manifest.json
 
-- id: fabrishot
-  alternativeNames: ~
-  tags:
-    - utility
-    - miscellaneous
-  packages:
-    - packageId: fabrishot.ramidzkh
-      loaders:
-        - fabric
+manifestSpecVersion: "5.0-alpha.2"
+tags:
+  - utility
+  - miscellaneous
+packages:
+  - publisher: ramidzkh
